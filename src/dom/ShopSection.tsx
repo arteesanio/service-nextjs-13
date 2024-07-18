@@ -15,7 +15,7 @@ export const ShopSection = () => {
                 *Order Details*\n
                 🌐 *Dominio*: ${order.labels.dominio}
                 🏠 *Hosting*: ${order.labels.hosting}
-                🎨 *Diseño*: ${order.labels.diseno}
+                🎨 *Diseno*: ${order.labels.diseno}
                 💻*Admin*: ${order.labels.admin}
                 📦 *Modulos*: ${order.labels.modulos}
                 🤖 *Bots*: ${order.labels.bots}
@@ -45,7 +45,7 @@ export const ShopSection = () => {
 
     return (<>
         <div className="flex-col w-100 tx-altfont-1 gap-2 w-max-1080px ">
-            <div className="">Quote Web Apps</div>
+            <div className="">Data Recovery</div>
             <div className="flex-col w-90 ">
                 <div id="calc"></div>
                 <ProjectCalc ref={projectCalcRef} />
@@ -55,7 +55,7 @@ export const ShopSection = () => {
                     <img src='/img2/mainisland.png' className='w-100 w-max-200px pt-8 px-2  translate-y--'  />
                     <div className="tx-white px-5 py-2 w-100 w-max-300px bord-r-100 tx-center tx-altfont-1 tx-bold-8 tx-lgx" 
                         style={{
-                            background: "#f92700",
+                            background: "#0073FA",
                             boxShadow: "inset 5px 5px 15px #ffffffaa"
                         }}
                     >

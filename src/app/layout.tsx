@@ -5,14 +5,14 @@ import './globals.css'
 // const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Quote Web Apps',
-  description: 'Get instant pricing quotes for your web application development projects. Accurate tool that provides  estimates based on your specific requirements and preferences, helping you budget effectively.',
-  keywords: 'web app pricing, web application quotes, development cost estimation, web development pricing, project budgeting',
+  title: 'Data Recovery Services',
+  description: 'Professional physical hard drive recovery services. Retrieve your lost data quickly and securely with our expert team and advanced technology.',
+  keywords: 'data recovery, hard drive recovery, data recovery services, physical drive recovery, lost data retrieval',
   twitter: {
     card: 'summary_large_image',
-    site: '@webduno',
-    title: 'Web App Pricing Quotes',
-    description: 'Get instant quotes for web app development costs and budget your project effectively.',
+    site: '@datarecovsaas',
+    title: 'Data Recovery Services',
+    description: 'Retrieve your lost data quickly and securely with our professional physical hard drive recovery services.',
   },
 }
 

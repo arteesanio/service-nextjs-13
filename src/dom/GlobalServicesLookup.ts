@@ -1,8 +1,7 @@
 "use client";
 
-
 export interface GlobalServicesLookup {
-    diseño: ServiceLookupItem[];
+    diseno: ServiceLookupItem[];
     dominio: ServiceLookupItem[];
     hosting: ServiceLookupItem[];
     admin: ServiceLookupItem[];
@@ -17,37 +16,37 @@ export interface ServiceLookupItem {
 }
 
 export const globServicesLookup: GlobalServicesLookup = {
-    diseño: [
-        { label: "Diseño Gratis", price: 50 },
-        { label: "Diseño Plantilla", price: 100 },
-        { label: "Diseño Customizado", price: 150 },
-        { label: "Diseño Profesional", price: 200 },
+    diseno: [
+        { label: "Basic Data Recovery", price: 50 },
+        { label: "Advanced Data Recovery", price: 100 },
+        { label: "RAID Recovery", price: 150 },
+        { label: "Professional Data Recovery", price: 200 },
     ],
     dominio: [
-        { label: "Dominio Gratis", price: 10 },
-        { label: "Dominio Básico", price: 40 },
-        { label: "Dominio Premium", price: 80 },
+        { label: "Free Diagnostics", price: 10 },
+        { label: "In-Person Consultation", price: 40 },
+        { label: "Remote Consultation", price: 80 },
     ],
     hosting: [
-        { label: "Hosting Gratis", price: 25 },
-        { label: "Hosting Compartido", price: 90 },
-        { label: "Hosting Dedicado", price: 120 },
+        { label: "Brand: Seagate", price: 25 },
+        { label: "Brand: Western Digital", price: 90 },
+        { label: "Brand: Toshiba", price: 120 },
     ],
     admin: [
-        { label: "Admin Básico", price: 150 },
-        { label: "Admin Intermedio", price: 300 },
-        { label: "Admin Avanzado", price: 400 },
+        { label: "Low Size Memory", price: 150 },
+        { label: "Standard Capacity", price: 300 },
+        { label: "Big Data Memory", price: 400 },
     ],
     tiempo: [
-        { label: "1 Semana", price: 100 },
-        { label: "1 Quincena", price: 100 },
-        { label: "1 Mes", price: 100 },
-        { label: "1 Trimestre", price: 100 },
-        { label: "1 Semestre", price: 100 },
-        { label: "1 Año", price: 100 },
+        { label: "Standard (5-7 days)", price: 100 },
+        { label: "Expedited (2-3 days)", price: 100 },
+        { label: "Emergency (24 hours)", price: 100 },
+        { label: "1 Week", price: 100 },
+        { label: "2 Weeks", price: 100 },
+        { label: "1 Month", price: 100 },
     ],
-    modulos: { label: "Módulos", price: 50 },
-    bots: { label: "Bots", price: 50 },
+    modulos: { label: "Encryption Service", price: 50 },
+    bots: { label: "Ongoing Support", price: 50 },
 };
 
 export const extractLabels = (key: keyof typeof globServicesLookup): string[] => {
