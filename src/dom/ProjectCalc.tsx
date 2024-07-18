@@ -162,7 +162,7 @@ export const ProjectCalc = forwardRef((props, ref) => {
         <>
         <div className=" flex-wrap flex-justify-center flex-align-end  w-100 py-8 Q_xs_py-0">
             <div className=" w-100 w-max-300px flex-col">
-            <div className="w-max-250px w-100 flex-col py-1" style={{borderTop: "1px solid #00000011"}}>
+                <div className="w-max-250px w-100 flex-col py-1" style={{borderTop: "1px solid #00000011"}}>
                     <div className="flex w-100">
                         <label className="tx-lg flex-1">{getLabelFromArray(values.dominio, dominioLabels)}</label>
                         <div>{!values.dominio ? null : <>🌐</>}</div>
@@ -172,7 +172,7 @@ export const ProjectCalc = forwardRef((props, ref) => {
                         style={getLabelFromArray(values.dominio, dominioLabels) == 0 ? {} : {boxShadow:"inset 0 0 1px #f90"}}
                         onClick={() => handleDominoChange(0)}>Free</button>
                         <button className="button py-2 noborder opaci-chov--25 bg-trans flex-1 bord-r-50"  
-                        style={getLabelFromArray(values.dominio, dominioLabels) == 0 ? {} : {boxShadow:"inset 0 0 1px #f90"}}
+                        style={getLabelFromArray(values.dominio, dominioLabels) !== 0 ? {} : {boxShadow:"inset 0 0 1px #f90"}}
                         onClick={() => handleDominoChange(1)}>Standard</button>
                     </div>
                 </div>

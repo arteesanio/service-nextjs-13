@@ -19,18 +19,18 @@ export const globServicesLookup: GlobalServicesLookup = {
     diseno: [
         { label: "Basic Data Recovery", price: 50 },
         { label: "Advanced Data Recovery", price: 100 },
-        { label: "RAID Recovery", price: 150 },
-        { label: "Professional Data Recovery", price: 200 },
+        { label: "In-Depth Recovery", price: 150 },
+        { label: "Professional Recovery", price: 200 },
     ],
     dominio: [
         { label: "Free Diagnostics", price: 10 },
-        { label: "In-Person Consultation", price: 40 },
+        { label: "Personal Consultation", price: 40 },
         { label: "Remote Consultation", price: 80 },
     ],
     hosting: [
-        { label: "Brand: Seagate", price: 25 },
-        { label: "Brand: Western Digital", price: 90 },
-        { label: "Brand: Toshiba", price: 120 },
+        { label: "Brand: Seagate", price: 30 },
+        { label: "Brand: Western Digital", price: 30 },
+        { label: "Brand: Toshiba", price: 30 },
     ],
     admin: [
         { label: "Low Size Memory", price: 150 },
