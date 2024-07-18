@@ -5,8 +5,15 @@ import './globals.css'
 // const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Carlota Shop',
-  description: 'Jewelry and Accesories',
+  title: 'Quote Web Apps',
+  description: 'Get instant pricing quotes for your web application development projects. Accurate tool that provides  estimates based on your specific requirements and preferences, helping you budget effectively.',
+  keywords: 'web app pricing, web application quotes, development cost estimation, web development pricing, project budgeting',
+  twitter: {
+    card: 'summary_large_image',
+    site: '@webduno',
+    title: 'Web App Pricing Quotes',
+    description: 'Get instant quotes for web app development costs and budget your project effectively.',
+  },
 }
 
 export default function RootLayout({
@@ -16,14 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"ma-0"} style={{
-        // background: "linear-gradient(45deg, #FFF8E8, #C29A74)",
-        // background: "linear-gradient(0deg, #FFF8E8, #4D4637)",
-        // background: "#FFF8E8"
-        background: "#4D4637",
-      }}>
-        {children}
-      </body>
+      <body className={"ma-0"}>{children}</body>
     </html>
   )
 }
