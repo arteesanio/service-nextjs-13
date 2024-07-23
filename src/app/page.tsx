@@ -2,6 +2,8 @@ import { LogoButton } from '@/dom/LogoButton'
 import { AppButtonsGroup } from '@/dom/AppButtonsGroup'
 import { ShopSection } from '@/dom/ShopSection'
 import { AdvancedSwipe } from '@/dom/AdvancedSwipe'
+import { FooterSection } from '@/dom/FooterSection'
+import { ContactButton } from '@/dom/ContactButton'
 
 
 
@@ -26,15 +28,15 @@ export default function Home() {
             />
           </div>
           <div className='flex'>
-            <div 
+            <a href="#about"
             style={{background: "linear-gradient(0deg, #00000000, #000000ee 15%, #000000ee 80%, #00000000)"}}
-             className='pa-8 tx-altfont-1 opaci-chov--50 Q_sm_x'>Contact</div>
-            <div 
+             className='pa-8 tx-altfont-1 opaci-chov--50 Q_md_x tx-white nodeco'>About</a>
+             <a  href="#services"
+             style={{background: "linear-gradient(0deg, #00000000, #000000ee 15%, #000000ee 80%, #00000000)"}}
+              className='pa-8 tx-altfont-1 opaci-chov--50 tx-white nodeco'>Services</a>
+            <a href="#contact"
             style={{background: "linear-gradient(0deg, #00000000, #000000ee 15%, #000000ee 80%, #00000000)"}}
-             className='pa-8 tx-altfont-1 opaci-chov--50 Q_md_x'>About</div>
-            <div 
-            style={{background: "linear-gradient(0deg, #00000000, #000000ee 15%, #000000ee 80%, #00000000)"}}
-             className='pa-8 tx-altfont-1 opaci-chov--50'>Services</div>
+             className='pa-8 tx-altfont-1 opaci-chov--50 Q_sm_x tx-white nodeco'>Contact</a>
           </div>
         </div>
         <div className='flex-col h-min-100vh w-100'>
@@ -57,7 +59,7 @@ export default function Home() {
 
 
 
-
+        <div id='about'></div>
         <div className='h-min-90vh pt-100 flex-col w-100 '>
           <img src='/sectionspng/gridimage.png' className='block w-100 pos-abs  opaci-50' />
           <div className='w-max-1080px w-100 flex-col flex-align-start z-5 '>
@@ -81,6 +83,7 @@ export default function Home() {
           </div>
         </div>
 
+        <div id='services'></div>
         <img src='/sectionspng/moutnain.png' className='block w-100' />
 
         <div className=' pb-150 flex-col w-100 '
@@ -324,6 +327,7 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
 
 
 
+<div id='contact'></div>
 
 
 
@@ -333,11 +337,18 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
   <div className='w-100 w-max-1080px flex-col'>
     {/* <div className='tx-xxxl w-100 pl-4'>Recovery</div> */}
     <div className="flex w-100 gap-8 Q_xs_sm_flex-col">
-      <div className='flex-1'>
+      <div className='flex-1 flex-col'>
         {/* <div className='pt-1 my-8  w-100' style={{background: "#1A3DC6"}}></div> */}
-        <div className='w-100 flex-col tx-altfont- flex-align-start px-4'>
-          <div className='Q_xs w-100 tx-xl'>Contacta Tecnicos Profesionales para Analisis y Eliminacion</div>
-          <div className='Q_sm_x w-100 tx-xxxl'>Contacta Tecnicos Profesionales para Analisis y Eliminacion</div>
+        <div className='w-100 flex-col tx-altfont- flex-align-start px-4 pos-rel'>
+          <div  className='pos-abs pa-100 top-0'
+            style={{filter: "blur(80px)", background: "#062243"}}
+          ></div>
+          <div className='z-5 Q_xs w-100 tx-xl'>Contacta Tecnicos Profesionales para Analisis y 
+            <div style={{textShadow: "0 5px  50px #66110077"}}>Eliminacion</div>
+          </div>
+          <div className='z-5 Q_sm_x w-100 tx-xxxl'>Contacta Tecnicos Profesionales para Analisis y 
+            <div style={{textShadow: "0 5px  50px #66110077"}}>Eliminacion</div>
+          </div>
           {/* <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
           <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
             No matter assumenda dolores non? Nulla ratione libero nesciunt error, placeat nostrum quae!
@@ -359,10 +370,10 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
         </div>
         <div className=' flex-col pos-rel'>
           <img src="/sectionspng/forense.png" alt="asd" className='w-100 w-max-400px' />
-          <div className='pos-abs tx-white bg-w-20 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_sm_x'>
+          <div className='pos-abs tx-white bg-w-20 tx-altfont-1 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_sm_x'>
             <div className='tx-xl px-8 py-2'>START</div>
           </div>
-          <div className='pos-abs tx-white bg-w-20 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_xs'>
+          <div className='pos-abs tx-white bg-w-20 tx-altfont-1 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_xs'>
             <div className='tx-xl px-8 py-2'>START</div>
           </div>
         </div>
@@ -392,7 +403,13 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
         {/* <img src='/sectionspng/section(5).png' className='block w-100' /> */}
         {/* <img src='/sectionspng/section(6).png' className='block w-100' /> */}
         <img src='/sectionspng/section(7).png' className='block w-100' />
-        <img src='/sectionspng/section(8).png' className='block w-100' />
+        {/* <img src='/sectionspng/section(8).png' className='block w-100' /> */}
+
+      <FooterSection />
+      <ContactButton />
+
+
+
       </div>
     </main>
   )
