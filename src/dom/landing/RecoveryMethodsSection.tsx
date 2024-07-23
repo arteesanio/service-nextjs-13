@@ -6,24 +6,24 @@ export const RecoveryMethodsSection = () => {
       <div className='flex-1'>
         <div className='pt-1 my-8  w-100' style={{background: "#1A3DC6"}}></div>
         <div className='w-100 flex-col tx-altfont-1 flex-align-start '>
-          <div className='w-100 opaci-50 tx-lgx'>
+          <div className='pl-4 opaci-50 tx-lgx'>
             DATA EMERGENCY
           </div>
           <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
-          <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
-          iRecovery es la única empresa en Europa y Latinoamérica que ofrece el primer servicio de Recuperación de Datos con cita previa
+          <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px  '>
+          <div className="px-4">iRecovery es la única empresa en Europa y Latinoamérica que ofrece el primer servicio de Recuperación de Datos con cita previa</div>
           </div>
         </div>
 
         <div className='pt-1 my-8  bg-w-10 w-100'></div>
         
         <div className='w-100 flex-col tx-altfont-1 flex-align-start '>
-          <div className='w-100 opaci-50 tx-lgx'>
+          <div className='pl-4 opaci-50 tx-lgx'>
             IPSP
           </div>
           <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
           <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
-          Para proteger todos tus datos contenidos en el Disco Duro o en cualquier otro medio de almacenamiento
+          <div className="px-4">Para proteger todos tus datos contenidos en el Disco Duro o en cualquier otro medio de almacenamiento</div>
           </div>
         </div>
         <div className='pt-1 my-8  bg-w-10 w-100'></div>
