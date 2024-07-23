@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 
@@ -1189,3 +1189,157 @@ body { font-family: "Inter"; }
 @media (min-height: 1201px) , (max-height: 1436px) {.Q_y_xs_md-xl{display: none } }
 /* From Small to Medium and Infinity */
 @media (max-height: 0576px) , (min-height: 0901px) , (max-height: 1200px) {.Q_y_sm-lg_x{display: none } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.the_root {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	min-height: 100vh;
+	overflow: hidden;
+	/* background: linear-gradient(#fff, #999); */
+  background: linear-gradient(#062465, #101815);
+  }
+  
+  * {
+	user-select: none;
+  }
+  
+  .the_root>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .the_app {
+	overflow: hidden;
+  }
+  
+  .the_app>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+
+.swipe {
+	position: absolute;
+  }
+  
+  .cardContainer {
+	width: 90vw;
+	max-width: 260px;
+	height: 300px;
+  }
+  
+  .card {
+	position: relative;
+	background-color: #fff;
+	width: 80vw;
+	max-width: 260px;
+	height: 300px;
+	box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+  }
+  
+  .cardContent {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .swipe:last-of-type {
+  
+  }
+  
+  .card h3 {
+	position: absolute;
+	bottom: 0;
+	margin: 10px;
+	color: #fff;
+  }
+  
+  .infoText {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	color: #fff;
+	animation-name: popup;
+	animation-duration: 800ms;
+  }
+  
+  .buttons {
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  @media (max-width: 625px) {
+	.buttons {
+	  flex-direction: column;
+	}
+  }
+  
+  .buttons button {
+	flex-shrink: 0;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	background-color: #9198e5;
+	transition: 200ms;
+	margin: 10px;
+	font-weight: bolder;
+	width: 160px;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+  }
+  
+  .buttons button:hover {
+	transform: scale(1.05);
+  }
+  
+  @keyframes popup {
+	0%   { transform: scale(1,1) }
+	10%  { transform: scale(1.1,1.1) }
+	30%  { transform: scale(.9,.9) }
+	50%  { transform: scale(1,1) }
+	57%  { transform: scale(1,1) }
+	64%  { transform: scale(1,1) }
+	100% { transform: scale(1,1) }
+  }
+  
