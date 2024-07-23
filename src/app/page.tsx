@@ -4,6 +4,8 @@ import { ShopSection } from '@/dom/ShopSection'
 import { AdvancedSwipe } from '@/dom/AdvancedSwipe'
 import { FooterSection } from '@/dom/FooterSection'
 import { ContactButton } from '@/dom/ContactButton'
+import { FaBuilding, FaMap, FaMapLocation, FaMessage } from 'react-icons/fa6'
+import { FaFacebook, FaInstagram, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
 
 
 
@@ -332,7 +334,7 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
 
 
 <div className='flex-col w-100 mt-100'
-// style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}}
+style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #000000)"}}
 >
   <div className='w-100 w-max-1080px flex-col'>
     {/* <div className='tx-xxxl w-100 pl-4'>Recovery</div> */}
@@ -343,11 +345,11 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
           <div  className='pos-abs pa-100 top-0'
             style={{filter: "blur(80px)", background: "#062243"}}
           ></div>
-          <div className='z-5 Q_xs w-100 tx-xl'>Contacta Tecnicos Profesionales para Analisis y 
-            <div style={{textShadow: "0 5px  50px #66110077"}}>Eliminacion</div>
+          <div className='pl-4 z-5 Q_xs w-100 tx-xl'>Contacta Tecnicos Profesionales para Analisis y 
+            <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminacion</div>
           </div>
-          <div className='z-5 Q_sm_x w-100 tx-xxxl'>Contacta Tecnicos Profesionales para Analisis y 
-            <div style={{textShadow: "0 5px  50px #66110077"}}>Eliminacion</div>
+          <div className='pl-4 z-5 Q_sm_x w-100 tx-xxxl'>Contacta Tecnicos Profesionales para Analisis y 
+            <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminacion</div>
           </div>
           {/* <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
           <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
@@ -369,11 +371,14 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
         {/* <div className='pt-1 my-8  bg-w-10 w-100'></div> */}
         </div>
         <div className=' flex-col pos-rel'>
-          <img src="/sectionspng/forense.png" alt="asd" className='w-100 w-max-400px' />
-          <div className='pos-abs tx-white bg-w-20 tx-altfont-1 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_sm_x'>
+        <div  className='pos-abs pa-100 '
+            style={{filter: "blur(80px)", background: "#06224377"}}
+          ></div>
+          <img src="/sectionspng/forense.png" alt="asd" className=' z-5 w-100 w-max-400px' />
+          <div className='pos-abs tx-white bg-w-20 z-10 tx-altfont-1 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_sm_x'>
             <div className='tx-xl px-8 py-2'>START</div>
           </div>
-          <div className='pos-abs tx-white bg-w-20 tx-altfont-1 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_xs'>
+          <div className='pos-abs tx-white bg-w-20 z-10 tx-altfont-1 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_xs'>
             <div className='tx-xl px-8 py-2'>START</div>
           </div>
         </div>
@@ -385,6 +390,121 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
 <div className='py-100'>
 
 </div>
+
+
+<div id='contact'></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style={{transform: "scale(1,1.5)"}} className='tx-ls-5'>
+  <div className='Q_xs tx-altfont-1 tx-xl'>CONTACT</div>
+  <div className='Q_sm_x tx-xxxl tx-altfont-1'>CONTACT</div>
+</div>
+<div className='flex-col w-100 mt-100'
+// style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #000000)"}}
+>
+  <div className='w-100 w-max-1080px flex-col'>
+    {/* <div className='tx-xxxl w-100 pl-4'>Recovery</div> */}
+    <div className="flex w-100 gap-8 Q_xs_sm_flex-col">
+      <div className='flex-1 flex-col'>
+        {/* <div className='pt-1 my-8  w-100' style={{background: "#1A3DC6"}}></div> */}
+        <div className='w-100 flex-col tx-altfont- flex-align-stretch px-4 pos-rel gap-4  '>
+          <div className=' flex-col flex-align-stretch'>
+            <input type="text" className='tx-altfont-1 tx-white px-4 bg-trans bord-r-5 tx-lg py-1 ' placeholder='NAME'
+              style={{border: "1px solid #ffffff44"}}
+             />
+          </div>
+          <div className=' flex-col flex-align-stretch'>
+            <input type="text" className='tx-altfont-1 tx-white px-4 bg-trans bord-r-5 tx-lg py-1 ' placeholder='EMAIL'
+              style={{border: "1px solid #ffffff44"}}
+             />
+          </div>
+          <div className=' flex-col flex-align-stretch'>
+            <textarea className='tx-altfont-1 tx-white px-4 bg-trans bord-r-5 tx-lg py-1 h-min-300px' placeholder='MESSAGE'
+              style={{border: "1px solid #ffffff44"}}
+             />
+          </div>
+          <div className='flex-center tx-altfont-1  gap-4 tx-white tx-center tx-lgx px-8 py-2' style={{background: "#1D2A76"}}>
+      {/* Recuperamos datos de DVR */}
+      <FaMessage /> 
+      <div>Send</div>
+    </div>
+        </div>
+
+        </div>
+        <div className=' flex-col pos-rel flex-1'>
+        {/* <div  className='pos-abs pa-100 '
+            style={{filter: "blur(80px)", background: "#06224377"}}
+          ></div> */}
+          
+          
+          <div className='mb-8 flex-col px-4 flex-align-start tx-altfont-1'>
+            <h2 className='tx-altfont-1 tx-bold-1 py-3'></h2>
+            <div className='flex-col flex-align-start tx-lx'>
+              <a className='  nodeco py-6 ' 
+                style={{color: "#888888"}}
+              >
+                <FaMapLocation /> Panama City, Panama
+              </a>
+              <a className='  nodeco py-6 ' 
+                style={{color: "#888888"}}
+              >
+                <FaPhone /> +507 6997-0742
+              </a>
+              <a className='  nodeco py-6  tx-lgx ' 
+                style={{color: "#888888"}}
+              >
+                <FaMailBulk /> support@irecoverydata.com
+              </a>
+              <hr className='opaci-10 mb-8 w-100' />
+              <div className='flex-wrap w-100 flex-justify-around'>
+              <a className='bg-w-10 flex-col h-80px w-80px bord-r-100p opaci-chov--50 tx-white' href='/'>
+                  <div className='pos-abs flex-col'>
+                  <FaTwitter />
+                  </div>
+                </a>
+                <a className='bg-w-10 flex-col h-80px w-80px bord-r-100p opaci-chov--50 tx-white' href='/'>
+                  <div className='pos-abs flex-col'>
+                  <FaInstagram />
+                  </div>
+                </a>
+                <a className='bg-w-10 flex-col h-80px w-80px bord-r-100p opaci-chov--50 tx-white' href='/'>
+                  <div className='pos-abs flex-col'>
+                  <FaFacebook />
+                  </div>
+                </a>
+              </div>
+              {/* <a className='opaci-chov--75 tx-white opaci-50  nodeco pa-2 px-4' target='_blank' href="https://github.com/SrMessiETH">
+          <FaGithub /> Github
+        </a> */}
+            </div>
+          </div>
+          
+        </div>
+    </div>
+    
+  </div>
+</div>
+
+<div className='py-100'>
+
+</div>
+
+
+
+
+
 
 
 
@@ -402,7 +522,7 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
         {/* <img src='/sectionspng/section(4).png' className='block w-100' /> */}
         {/* <img src='/sectionspng/section(5).png' className='block w-100' /> */}
         {/* <img src='/sectionspng/section(6).png' className='block w-100' /> */}
-        <img src='/sectionspng/section(7).png' className='block w-100' />
+        {/* <img src='/sectionspng/section(7).png' className='block w-100' /> */}
         {/* <img src='/sectionspng/section(8).png' className='block w-100' /> */}
 
       <FooterSection />
