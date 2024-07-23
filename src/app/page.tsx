@@ -20,12 +20,15 @@ export default function Home() {
     // </main>
     <main className='bg-black tx-white tx-altfont-2'>
       <div className='flex-col'>
+
+
+
+
+        
         <div className='flex w-max-1080px w-100 pos-fix z-100 top-0 mt-4'
-        //  style={{background: "linear-gradient(0deg, #00000000, #000000cc 15%, #000000cc 80%, #00000000)"}}
          >
           <div className='flex-1 flex-col flex-align-start pl-8 '>
             <img src='/sectionspng/logo.png' className='block bg-glass-6 bg-b-90  bord-r-100p opaci-chov--50 px-2 py-1' width={48} 
-              // style={{background: "linear-gradient(120deg, #00000022, #000000cc)"}}
               style={{boxShadow: "0 0 15px #aaccff33"}}
             />
           </div>
@@ -41,10 +44,21 @@ export default function Home() {
              className='pa-8 tx-altfont-1 opaci-chov--50 Q_sm_x tx-white nodeco'>Contact</a>
           </div>
         </div>
+
+
+
+
+
+
+
         <div className='flex-col h-min-100vh w-100'>
           <div className='w-max-1080px w-100 z-10 flex mt-150'>
-            <div className=' w-max-600px tx-xl' style={{}}>
-              <div className='px-4'>Recuperacion Profesional de Datos, Analisis y Eliminacion Segura de Archivos</div>
+            <div className=' w-max-600px ' style={{}}>
+            <div className='px-4 Q_xs '>
+              <div className='tx-lx'>Recuperacion Profesional de Datos.</div>
+              <div className='tx-lg tx-altfont-1 pt-100'>Analisis y Eliminacion Segura de Archivos</div>
+            </div>
+            <div className='px-4 Q_sm_x tx-xl '>Recuperacion Profesional de Datos, Analisis y Eliminacion Segura de Archivos</div>
             </div>
           </div>
           <div className='z-10  w-100 flex flex-justify-end w-max-1080px translate-y-50 '>
@@ -68,11 +82,11 @@ export default function Home() {
             <div className='tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la información</div>
             <div className='tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>iRecovery Data Panamá</div>
             <div className='py-4'></div>
-            <div className='tx-altfont-1 w-max-600px py-1 w-100 px-4'>
-              El análisis forense de datos es esencial para cualquier empresa que busque protegerse contra el fraude y otros delitos informáticos.
+            <div className='tx-altfont-1 w-max-600px py-1 w-100 '>
+              <div className='px-4'>El análisis forense de datos es esencial para cualquier empresa que busque protegerse contra el fraude y otros delitos informáticos.</div>
             </div>
-            <div className='tx-altfont-1 w-max-600px py-1 w-100 px-4'>
-              Datos virtuales podrán ser presentados como pruebas electrónicas ante la justicia.
+            <div className='tx-altfont-1 w-max-600px py-1 w-100 '>
+              <div className='px-4'>Datos virtuales podrán ser presentados como pruebas electrónicas ante la justicia.</div>
             </div>
             <div className='px-4 flex-col flex-align-start'>
               <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4  border-white opaci-chov--50 tx-bold-2'>
@@ -280,11 +294,14 @@ export default function Home() {
 style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}}
 >
   <div className='w-100 w-max-1080px flex-col'>
-    <div className='tx-xxxl w-100 pl-4'>Recovery</div>
+    <div className=' w-100 pl-4'>
+      <div className='tx-xxl Q_xs'>Recovery</div>
+      <div className='tx-xxxl Q_sm_x'>Recovery</div>
+    </div>
     <div className="flex w-100 gap-8 Q_xs_sm_flex-col">
       <div className='flex-1'>
         <div className='pt-1 my-8  w-100' style={{background: "#1A3DC6"}}></div>
-        <div className='w-100 flex-col tx-altfont-1 flex-align-start px-4'>
+        <div className='w-100 flex-col tx-altfont-1 flex-align-start '>
           <div className='w-100 opaci-50 tx-lgx'>
             DATA EMERGENCY
           </div>
@@ -296,7 +313,7 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
 
         <div className='pt-1 my-8  bg-w-10 w-100'></div>
         
-        <div className='w-100 flex-col tx-altfont-1 flex-align-start px-4'>
+        <div className='w-100 flex-col tx-altfont-1 flex-align-start '>
           <div className='w-100 opaci-50 tx-lgx'>
             IPSP
           </div>
@@ -345,7 +362,7 @@ style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #00000
           <div  className='pos-abs pa-100 top-0'
             style={{filter: "blur(80px)", background: "#062243"}}
           ></div>
-          <div className='pl-4 z-5 Q_xs w-100 tx-xl'>Contacta Tecnicos Profesionales para Analisis y 
+          <div className='pl-4 z-5 Q_xs w-100 tx-lgx pt-100'>Contacta Tecnicos Profesionales para Analisis y 
             <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminacion</div>
           </div>
           <div className='pl-4 z-5 Q_sm_x w-100 tx-xxxl'>Contacta Tecnicos Profesionales para Analisis y 
@@ -359,7 +376,7 @@ style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #00000
 
         {/* <div className='pt-1 my-8  bg-w-10 w-100'></div> */}
         
-        {/* <div className='w-100 flex-col tx-altfont-1 flex-align-start px-4'>
+        {/* <div className='w-100 flex-col tx-altfont-1 flex-align-start '>
           <div className='w-100 opaci-50 tx-lgx'>
             POOR COMUNICATION
           </div>
@@ -419,19 +436,19 @@ style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #00000
     <div className="flex w-100 gap-8 Q_xs_sm_flex-col">
       <div className='flex-1 flex-col'>
         {/* <div className='pt-1 my-8  w-100' style={{background: "#1A3DC6"}}></div> */}
-        <div className='w-100 flex-col tx-altfont- flex-align-stretch px-4 pos-rel gap-4  '>
+        <div className='w-100 flex-col tx-altfont- flex-align-stretch  pos-rel gap-4  '>
           <div className=' flex-col flex-align-stretch'>
-            <input type="text" className='tx-altfont-1 tx-white px-4 bg-trans bord-r-5 tx-lg py-1 ' placeholder='NAME'
+            <input type="text" className='tx-altfont-1 tx-white  bg-trans bord-r-5 tx-lg py-1 ' placeholder='NAME'
               style={{border: "1px solid #ffffff44"}}
              />
           </div>
           <div className=' flex-col flex-align-stretch'>
-            <input type="text" className='tx-altfont-1 tx-white px-4 bg-trans bord-r-5 tx-lg py-1 ' placeholder='EMAIL'
+            <input type="text" className='tx-altfont-1 tx-white  bg-trans bord-r-5 tx-lg py-1 ' placeholder='EMAIL'
               style={{border: "1px solid #ffffff44"}}
              />
           </div>
           <div className=' flex-col flex-align-stretch'>
-            <textarea className='tx-altfont-1 tx-white px-4 bg-trans bord-r-5 tx-lg py-1 h-min-300px' placeholder='MESSAGE'
+            <textarea className='tx-altfont-1 tx-white  bg-trans bord-r-5 tx-lg py-1 h-min-300px' placeholder='MESSAGE'
               style={{border: "1px solid #ffffff44"}}
              />
           </div>
@@ -451,24 +468,30 @@ style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #00000
           
           <div className='mb-8 flex-col px-4 flex-align-start tx-altfont-1'>
             <h2 className='tx-altfont-1 tx-bold-1 py-3'></h2>
-            <div className='flex-col flex-align-start tx-lx'>
-              <a className='  nodeco py-6 ' 
+            <div className='flex-col flex-align-start '>
+              <a className='  nodeco py-6  flex-center gap-3' 
                 style={{color: "#888888"}}
               >
-                <FaMapLocation /> Panama City, Panama
+                <FaMapLocation /> 
+                <div className='Q_xs '>Panama City, Panama</div>
+                <div className='Q_sm_x tx-lx'>Panama City, Panama</div>
               </a>
-              <a className='  nodeco py-6 ' 
+              <a className='  nodeco py-6  flex-center gap-3' 
                 style={{color: "#888888"}}
               >
-                <FaPhone /> +507 6997-0742
+                <FaPhone /> 
+                <div className='Q_xs '>+507 6997-0742</div>
+                <div className='Q_sm_x tx-lx'>+507 6997-0742</div>
               </a>
-              <a className='  nodeco py-6  tx-lgx ' 
+              <a className='  nodeco py-6    flex-center gap-3' 
                 style={{color: "#888888"}}
               >
-                <FaMailBulk /> support@irecoverydata.com
+                <FaMailBulk />
+                <div className='Q_xs '>support@irecoverydata.com</div>
+                <div className='Q_sm_x tx-lgx'>support@irecoverydata.com</div>
               </a>
               <hr className='opaci-10 mb-8 w-100' />
-              <div className='flex-wrap w-100 flex-justify-around'>
+              <div className='flex-wrap w-100 flex-justify-around gap-3 tx-lx'>
               <a className='bg-w-10 flex-col h-80px w-80px bord-r-100p opaci-chov--50 tx-white' href='/'>
                   <div className='pos-abs flex-col'>
                   <FaTwitter />
