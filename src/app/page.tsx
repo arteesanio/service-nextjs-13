@@ -281,11 +281,11 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
         <div className='pt-1 my-8  w-100' style={{background: "#1A3DC6"}}></div>
         <div className='w-100 flex-col tx-altfont-1 flex-align-start px-4'>
           <div className='w-100 opaci-50 tx-lgx'>
-            DISPARATE WORFLOWS
+            DATA EMERGENCY
           </div>
           <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
           <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
-            No matter assumenda dolores non? Nulla ratione libero nesciunt error, placeat nostrum quae!
+          iRecovery es la única empresa en Europa y Latinoamérica que ofrece el primer servicio de Recuperación de Datos con cita previa
           </div>
         </div>
 
@@ -293,21 +293,76 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
         
         <div className='w-100 flex-col tx-altfont-1 flex-align-start px-4'>
           <div className='w-100 opaci-50 tx-lgx'>
-            POOR COMUNICATION
+            IPSP
           </div>
           <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
           <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
-            Existing non? Nulla ratione libero nesciunt error, placeat nostrumnesciunt error, placeat nostrum quae!
+          Para proteger todos tus datos contenidos en el Disco Duro o en cualquier otro medio de almacenamiento
           </div>
         </div>
         <div className='pt-1 my-8  bg-w-10 w-100'></div>
         </div>
         <div className=' flex-col pos-rel'>
           <img src="/sectionspng/screen1.png" alt="asd" className='w-100 w-max-400px' />
-          <div className='pos-abs tx-white bg-w-20 bg-glass-4 bottom-0 translate-y--75 opaci-chov--75 Q_sm_x'>
+          <div className='box-shadow-5-t pos-abs tx-white  bottom-0 translate-y--75 opaci-chov--75 Q_sm_x' style={{background: "#16358F"}}>
+            <div className=' tx-altfont-1 tx-xl px-8 py-2'>Enter App</div>
+          </div>
+          <div className='box-shadow-5-t pos-abs tx-white  bottom-0  opaci-chov--75 Q_xs' style={{background: "#16358F"}}>
+            <div className=' tx-altfont-1 tx-xl px-8 py-2'>Enter App</div>
+          </div>
+        </div>
+    </div>
+    
+  </div>
+</div>
+{/* 
+<div className='py-100'>
+
+</div> */}
+
+
+
+
+
+
+
+
+<div className='flex-col w-100 mt-100'
+// style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}}
+>
+  <div className='w-100 w-max-1080px flex-col'>
+    {/* <div className='tx-xxxl w-100 pl-4'>Recovery</div> */}
+    <div className="flex w-100 gap-8 Q_xs_sm_flex-col">
+      <div className='flex-1'>
+        {/* <div className='pt-1 my-8  w-100' style={{background: "#1A3DC6"}}></div> */}
+        <div className='w-100 flex-col tx-altfont- flex-align-start px-4'>
+          <div className='Q_xs w-100 tx-xl'>Contacta Tecnicos Profesionales para Analisis y Eliminacion</div>
+          <div className='Q_sm_x w-100 tx-xxxl'>Contacta Tecnicos Profesionales para Analisis y Eliminacion</div>
+          {/* <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
+          <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
+            No matter assumenda dolores non? Nulla ratione libero nesciunt error, placeat nostrum quae!
+          </div> */}
+        </div>
+
+        {/* <div className='pt-1 my-8  bg-w-10 w-100'></div> */}
+        
+        {/* <div className='w-100 flex-col tx-altfont-1 flex-align-start px-4'>
+          <div className='w-100 opaci-50 tx-lgx'>
+            POOR COMUNICATION
+          </div>
+          <div className='opaci-20  w-100 my-4' style={{paddingTop:"3px",background: "#1A3DC6"}} ></div >
+          <div className='w-100 opaci-50 tx-bold-2 tx-altfont-2 w-max-400px '>
+            Existing non? Nulla ratione libero nesciunt error, placeat nostrumnesciunt error, placeat nostrum quae!
+          </div>
+        </div> */}
+        {/* <div className='pt-1 my-8  bg-w-10 w-100'></div> */}
+        </div>
+        <div className=' flex-col pos-rel'>
+          <img src="/sectionspng/forense.png" alt="asd" className='w-100 w-max-400px' />
+          <div className='pos-abs tx-white bg-w-20 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_sm_x'>
             <div className='tx-xl px-8 py-2'>START</div>
           </div>
-          <div className='pos-abs tx-white bg-w-20 bg-glass-4 bottom-0  opaci-chov--75 Q_xs'>
+          <div className='pos-abs tx-white bg-w-20 bg-glass-4 bottom-0 right-0 opaci-chov--75 Q_xs'>
             <div className='tx-xl px-8 py-2'>START</div>
           </div>
         </div>
@@ -335,7 +390,7 @@ style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}
         {/* <img src='/sectionspng/section(3).png' className='block w-100' /> */}
         {/* <img src='/sectionspng/section(4).png' className='block w-100' /> */}
         {/* <img src='/sectionspng/section(5).png' className='block w-100' /> */}
-        <img src='/sectionspng/section(6).png' className='block w-100' />
+        {/* <img src='/sectionspng/section(6).png' className='block w-100' /> */}
         <img src='/sectionspng/section(7).png' className='block w-100' />
         <img src='/sectionspng/section(8).png' className='block w-100' />
       </div>
