@@ -2,11 +2,13 @@
 export const HeroLanding = () => {
   return (<>
     <div className='flex-col h-min-100vh w-100'>
-          <div className='w-max-1080px w-100 z-10 flex mt-150'>
+      <div className="mt-150 Q_sm_x"></div>
+          <div className='w-max-1080px w-100 z-10 flex '>
             <div className=' w-max-600px ' style={{}}>
             <div className='px-4 Q_xs '>
               <div className='tx-lx'>Recuperacion Profesional de Datos.</div>
-              <div className='tx-lg tx-altfont-1 pt-100'>Analisis y Eliminacion Segura de Archivos</div>
+              <hr className="w-100 opaci-10" />
+              <div className='tx-lg tx-altfont-1 p pb-8'>Analisis y Eliminacion Segura de Archivos</div>
             </div>
             <div className='px-4 Q_sm_x tx-xl '>Recuperacion Profesional de Datos, Analisis y Eliminacion Segura de Archivos</div>
             </div>
