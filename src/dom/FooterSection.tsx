@@ -23,13 +23,13 @@ export const FooterSection = () => {
           <FaTwitter /> Twitter / X
         </a> */}
               <a className='opaci-chov--75 tx-white opaci-50  nodeco pa-2 px-4' target='_blank' href="https://t.me/mileisolcoin/">
-                Recuperacion de Datos
+                Recuperación de Datos
               </a>
               <a className='opaci-chov--75 tx-white opaci-50  nodeco pa-2 px-4' target='_blank' href="https://www.youtube.com/@JavierMileiSolana">
-                Analisis Forense
+                Análisis Forense
               </a>
               <a className='opaci-chov--75 tx-white opaci-50  nodeco pa-2 px-4' target='_blank' href="https://tiktok.com/@mileisolcoin">
-                Eliminacion Segura
+                Eliminación Segura
               </a>
               <a className='opaci-chov--75 tx-white opaci-50  nodeco pa-2 px-4' target='_blank' href="https://tiktok.com/@mileisolcoin">
                 Penetration Test

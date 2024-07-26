@@ -4,9 +4,9 @@ export const AboutUsRecovery = () => {
 <div className='h-min-90vh pt-100 flex-col w-100 '>
           <img src='/sectionspng/gridimage.png' className='block w-100 pos-abs  opaci-50' />
           <div className='w-max-1080px w-100 flex-col flex-align-start z-5 '>
-          <div className='Q_sm_x tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la información</div>
+          <div className='Q_sm_x tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la Información</div>
           <div className='Q_xs tx-lg tx-altfont-1 tx-bold-8 w-max-700px px-4'>iRecovery Data Panamá</div>
-          <div className='Q_xs tx-lx tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la información</div>
+          <div className='Q_xs tx-lx tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la Información</div>
             <div className='Q_sm_x tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>iRecovery Data Panamá</div>
             <div className='py-4'></div>
             <div className='tx-altfont-1 w-max-600px py-1 w-100 '>
@@ -24,10 +24,10 @@ export const AboutUsRecovery = () => {
             </div>
             <div className='px-4 flex-col flex-align-start'>
               <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4  border-white opaci-chov--50 tx-bold-2'>
-                <div className='Q_xs_py-4'>Contacta nuestro equipo de expertos y recupera datos →</div>
+                <div className='Q_xs_py-4'>Contacta a nuestro equipo de expertos y recupera datos →</div>
               </div>
               <a href="https://api.whatsapp.com/send?phone=50769970742" className='tx-white tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4  border-white opaci-chov--50 tx-bold-2'>
-                Analisis Gratis →
+                Análisis Gratis →
               </a>
             </div>
           </div>
@@ -44,9 +44,9 @@ export const AboutUsRecoveryLLL = () => {
          style={{filter: "invert(.95)"}}
         />
         <div className='w-max-1080px w-100 flex-col flex-align-start z-5 '>
-        <div className='Q_sm_x tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la información</div>
+        <div className='Q_sm_x tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la Información</div>
         <div className='Q_xs tx-lg tx-altfont-1 tx-bold-8 w-max-700px px-4'>iRecovery Data Panamá</div>
-        <div className='Q_xs tx-lx tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la información</div>
+        <div className='Q_xs tx-lx tx-altfont-1 tx-bold-8 w-max-700px px-4'>Tecnología de la Información</div>
           <div className='Q_sm_x tx-xl tx-altfont-1 tx-bold-8 w-max-700px px-4'>iRecovery Data Panamá</div>
           <div className='py-4'></div>
           <div className='tx-altfont-1 w-max-600px py-1 w-100 '>
@@ -62,12 +62,12 @@ export const AboutUsRecoveryLLL = () => {
             <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4   opaci-chov--50 tx-bold-2'
               style={{boxShadow: "1px 1px 3px #00000044"}}
             >
-              <div className='Q_xs_py-4'>Contacta nuestro equipo de expertos y recupera datos →</div>
+              <div className='Q_xs_py-4'>Contacta a nuestro equipo de expertos y recupera datos →</div>
             </div>
             <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4   opaci-chov--50 tx-bold-2'
               style={{boxShadow: "1px 1px 3px #00000044"}}
             >
-              Analisis Gratis →
+              Análisis Gratis →
             </div>
           </div>
         </div>
