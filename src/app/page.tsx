@@ -45,11 +45,11 @@ return (
     </div>
     <div className='flex-col pos-rel w-100'>
 
-      <div className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 '>
+      <a className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
         <div className='tx-white tx-center tx-lgx px-8  py-2' style={{background: "#1D2A76"}}>
           <div>Recuperamos <br /> datos de DVR</div>
         </div>
-      </div>
+      </a>
       <div className='pos-abs top-0 mt-100 z-100'>
         <div className='tx-white tx-lx   py-2' style={{background: ""}}>
           Testimonials
@@ -74,7 +74,7 @@ return (
     <div className='flex-col w-100 mt-100'
       style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}}
     >
-      <div className='w-100'>
+      <div className='w-100 flex-col'>
         <div className='  pl-4'>
           <div className='tx-xl Q_xs'>Recovery</div>
           <div className='tx-xxxl Q_sm_x'>Recovery</div>
@@ -118,7 +118,7 @@ return (
 
 
 
-    <div style={{transform: "scale(1,1.5)"}} className='tx-ls-5'>
+    <div style={{transform: "scale(1,1)"}} className='tx-ls-5'>
       <div className='Q_xs tx-altfont-1 tx-xl'>CONTACT</div>
       <div className='Q_sm_x tx-xxxl tx-altfont-1'>CONTACT</div>
     </div>
