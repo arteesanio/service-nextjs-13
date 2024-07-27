@@ -44,7 +44,7 @@ return (
     <div id='nosotros'></div>
     <AboutUsRecoveryLLL />
 
-    <div id='servicio'></div>
+    <div id='servicios'></div>
     <img src='/sectionspng/moutnain.png' className='block w-100'
     style={{filter: "invert(.957)"}}
      />
