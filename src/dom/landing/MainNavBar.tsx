@@ -31,14 +31,14 @@ export default function MainNavBar() {
 
   return (
     <div className='flex w-max-1080px w-100 pos-fix z-100 top-0'>
-      <div className='flex-1 flex-col flex-align-start pl-8'>
+      <a className='flex-1 flex-col flex-align-start pl-8' href='/'> 
         <img 
           src='/sectionspng/logo.png'
           className='block bg-glass-6 bg-b-90 bord-r-100p opaci-chov--75 px-2 py-1'
           width={48}
           style={{ boxShadow: "0 0 15px #aaccff33" }}
         />
-      </div>
+      </a>
       <div className='flex Q_sm_x'>
         
 <div className="flex-center  mt-8 mr-4 ">
@@ -142,7 +142,7 @@ export default function MainNavBar() {
             <hr className='opaci-10 w-90 my-2' />
           
           <div className="flex-col w-100  gap-2">
-            {['Analisis Gratis', 'Abrir App'].map((section) => (
+            {['Análisis Gratis', 'Abrir App'].map((section) => (
               <a
                 key={section}
                 href={`#${section.toLowerCase()}`}
