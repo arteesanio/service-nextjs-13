@@ -88,7 +88,7 @@ return (
 
 
 
-    <div id='contact'></div>
+    {/* <div id='contacto'></div> */}
 
 
 
@@ -100,13 +100,13 @@ return (
       </div>
     </div>
 
+
+
+    <div id='contacto'></div>
+
+
+
     <div className='py-100'></div>
-
-
-    <div id='contact'></div>
-
-
-
 
 
 
@@ -119,8 +119,8 @@ return (
 
 
     <div style={{transform: "scale(1,1)"}} className='tx-ls-5'>
-      <div className='Q_xs tx-altfont-1 tx-xl'>CONTACT</div>
-      <div className='Q_sm_x tx-xxxl tx-altfont-1'>CONTACT</div>
+      <div className='Q_xs tx-altfont-1 tx-xl'>CONTACTO</div>
+      <div className='Q_sm_x tx-xxxl tx-altfont-1'>CONTACTO</div>
     </div>
     <div className='flex-col w-100 mt-100'>
       <div className='w-100 w-max-1080px flex-col'>
