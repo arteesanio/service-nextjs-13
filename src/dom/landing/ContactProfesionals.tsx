@@ -7,11 +7,11 @@ export const ContactProfesionals = () => {
             <div className='w-100 flex-col tx-altfont- flex-align-start px-4 pos-rel '>
               <div  className='pos-abs pa-100 top-0' style={{filter: "blur(80px)", background: "#062243"}}></div>
               <div className='pl-4 z-5 Q_xs w-100 tx-lgx pt-100'>
-                Contacta Tecnicos Profesionales para Análisis y 
+                Contacta Técnicos Profesionales para Análisis y 
                 <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminación</div>
               </div>
               <div className='pl-4 z-5 Q_sm_x w-100 tx-xxxl'>
-                Contacta Tecnicos Profesionales para Análisis y 
+                Contacta Técnicos Profesionales para Análisis y 
                 <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminación</div>
               </div>
             </div>
@@ -39,11 +39,11 @@ export const ContactProfesionalsLLL = () => {
             <div className='w-100 flex-col tx-altfont- flex-align-start px-4 pos-rel '>
               {/* <div  className='pos-abs pa-100 top-0' style={{filter: "blur(80px)", background: "#062243"}}></div> */}
               <div className='pl-4 z-5  Q_xs w-100 tx-lgx pt-100' style={{color: "#333333"}}>
-                Contacta Tecnicos Profesionales para Análisis y 
+                Contacta Técnicos Profesionales para Análisis y 
                 <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminación</div>
               </div>
               <div className='pl-4 z-5  Q_sm_x w-100 tx-xxxl' style={{color: "#333333"}}>
-                Contacta Tecnicos Profesionales para Análisis y 
+                Contacta Técnicos Profesionales para Análisis y 
                 <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminación</div>
               </div>
             </div>
