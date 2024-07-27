@@ -24,7 +24,7 @@ return (
     <div id='nosotros'></div>
     <AboutUsRecovery />
 
-    <div id='services'></div>
+    <div id='servicio'></div>
     <img src='/sectionspng/moutnain.png' className='block w-100' />
 
     <div className=' pb-150 flex-col w-100 ' style={{ background: "#02040B" }}>
