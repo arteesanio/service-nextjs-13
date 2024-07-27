@@ -1,4 +1,4 @@
-import { MentionsList } from "./MentionsList";
+import { MentionsList } from "../MentionsList";
 
 
 export const MentionsListLLL = MentionsList;
