@@ -1,4 +1,4 @@
-const serviceCardsData = [
+export const serviceCardsData = [
   {
     title: "RECUPERACIÓN DE DATOS",
     description: "Recuperación de Datos de soporte de almacenamiento, disco duro, SSD, NAS, RAID, server, DVR.",
@@ -52,7 +52,7 @@ const ServiceCard = ({ title, description, icon, height, chatMsg, chatMsgReq }:a
   </div>
 );
 
-const ServiceCardLLL = ({ title, description, icon, height }:any) => (
+export const ServiceCardLLL = ({ title, description, icon, height }:any) => (
   <div className={`h-${height} flex-col py-100 bord-r-15`}
     style={{background: ""}}
   >
@@ -82,11 +82,4 @@ export const ServicesCards = () => (
   </div>
 );
 
-export const ServicesCardsLLL = () => (
-  <div className='flex-wrap gap-4 px-4'>
-    {serviceCardsData.map(({ title, description, icon, height, chatMsg, chatMsgReq }) => (
-      <ServiceCardLLL key={title} title={title} description={description} icon={icon} height={height} chatMsgReq={chatMsgReq} chatMsg={chatMsg} />
-    ))}
-  </div>
-);
 

@@ -17,24 +17,11 @@ export default function Home() {
 return (
 <main className='bg-black tx-white tx-altfont-2'>
   <div className='flex-col'>
-
-
-
-
-
-  <MainNavBar />
-
-
-
-
-
-
+    <MainNavBar />
 
     <HeroLanding  />
 
-
-
-    <div id='about'></div>
+    <div id='nosotros'></div>
     <AboutUsRecovery />
 
     <div id='services'></div>
@@ -44,7 +31,6 @@ return (
       <ServicesCards />
     </div>
     <div className='flex-col pos-rel w-100'>
-
       <a className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
         <div className='tx-white tx-center tx-lgx px-8  py-2' style={{background: "#1D2A76"}}>
           <div>Recuperamos <br /> datos de DVR</div>
@@ -66,11 +52,6 @@ return (
       </div>
     </div>
 
-
-
-
-
-
     <div className='flex-col w-100 mt-100'
       style={{background: "linear-gradient(0deg, #000000, #071319, #071319, #000000)"}}
     >
@@ -84,14 +65,6 @@ return (
       </div>
     </div>
 
-
-
-
-
-    {/* <div id='contacto'></div> */}
-
-
-
     <div className='flex-col w-100 mt-100'
       style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #000000)"}}
     >
@@ -100,23 +73,9 @@ return (
       </div>
     </div>
 
-
-
     <div id='contacto'></div>
 
-
-
     <div className='py-100'></div>
-
-
-
-
-
-
-
-
-
-
 
     <div style={{transform: "scale(1,1)"}} className='tx-ls-5'>
       <div className='Q_xs tx-altfont-1 tx-xl'>CONTACTO</div>
@@ -130,25 +89,14 @@ return (
 
     <div className='py-100'></div>
 
-
-
-
-
-
-
-
-
   {/* <div className='w-100 w-max-1080px noverflow flex-col the_root'>
   <div className='w-100  noverflow flex-col the_app '>
   <AdvancedSwipe /> 
   </div>
   </div> */}
 
-
   <FooterSection />
   <ContactButton />
-
-
 
   </div>
 </main>
