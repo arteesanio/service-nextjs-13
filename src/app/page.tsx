@@ -1,4 +1,4 @@
-import { FooterSection } from '@/dom/FooterSection'
+import { IFooterSection } from '@/dom/IFooterSection'
 import { ContactButton } from '@/dom/ContactButton'
 import { FaMapLocation, FaMessage } from 'react-icons/fa6'
 import { FaFacebook, FaInstagram, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
@@ -95,7 +95,7 @@ return (
   </div>
   </div> */}
 
-  {/* <FooterSection /> */}
+  <IFooterSection />
   <ContactButton />
 
   </div>

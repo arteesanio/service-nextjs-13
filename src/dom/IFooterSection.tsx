@@ -4,7 +4,7 @@ import { TbShoe } from "react-icons/tb";
 
 
 
-export const FooterSection = () => {
+export const IFooterSection = () => {
   return (<>
 
 
