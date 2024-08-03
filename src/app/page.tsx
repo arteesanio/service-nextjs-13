@@ -95,7 +95,7 @@ return (
   </div>
   </div> */}
 
-  <FooterSection />
+  {/* <FooterSection /> */}
   <ContactButton />
 
   </div>
