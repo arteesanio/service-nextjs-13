@@ -31,7 +31,7 @@ return (
       <ServicesCards />
     </div>
     <div className='flex-col pos-rel w-100'>
-      <a className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
+      <a className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
         <div className='tx-white tx-center tx-lgx px-8  py-2' style={{background: "#1D2A76"}}>
           <div>Recuperamos <br /> datos de DVR</div>
         </div>

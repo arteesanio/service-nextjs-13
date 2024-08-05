@@ -1,4 +1,4 @@
-import { FaQuestionCircle, FaPhoneAlt, FaBuilding, FaMap, FaHandshake } from "react-icons/fa";
+import { FaQuestionCircle, FaPhoneAlt, FaBuilding, FaMap, FaHandshake, FaMailBulk } from "react-icons/fa";
 import { FaMapLocation, FaShop } from "react-icons/fa6";
 
 
@@ -49,6 +49,9 @@ export const IFooterSection = () => {
           <div className='mb-8 flex-col px-4 flex-align-start tx-altfont-1'>
             <h2 className='tx-altfont-1 tx-bold-1 py-3'></h2>
             <div className='flex-col flex-align-start tx-lg'>
+              <a className='  nodeco pa-2 px-4 tx-md' style={{color: "#aabbcc"}}>
+              <FaMailBulk /> support@irecoverydata.com
+              </a>
               <a className='  nodeco pa-2 px-4' style={{color: "#223344"}}>
                 <FaMapLocation /> Panama City
               </a>

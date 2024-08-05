@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" style={{background: "#08090D"}}>
-      <body className={"ma-0 noverflow-x w-100vw"}>{children}</body>
+      <body className={"ma-0 noverflow-x w-100"}>{children}</body>
     </html>
   )
 }

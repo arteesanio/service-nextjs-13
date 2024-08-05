@@ -56,8 +56,41 @@ export default function MainNavBar() {
           </a>
         </div>
       </div> */}
+      {/* <div className='flex flex-col Q_sm_x'>
+        
+        <div className="flex-center  mt-8 mr-4 ">
+          <a
+            href={`/?lang=${"es".toLowerCase()}`}
+            className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-l-5  nodeco'
+          >
+            {"PTY"}
+          </a>
+          <a
+            href={`/?lang=${"en".toLowerCase()}`}
+            className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-r-5  nodeco'
+          >
+            {"+507 6997-0742"}
+          </a>
+        </div>
+        
+        
+        <div className="flex-center  mt-2 mr-4 ">
+          <a
+            href={`/?lang=${"es".toLowerCase()}`}
+            className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-l-5  nodeco'
+          >
+            {"CO"}
+          </a>
+          <a
+            href={`/?lang=${"en".toLowerCase()}`}
+            className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-r-5  nodeco'
+          >
+            {"+57 3023075161"}
+          </a>
+        </div>
+      </div> */}
       <div className='flex'>
-        {['Nosotros', 'Servicios', 'Contacto'].map((section) => (
+        {['Nosotros', 'Servicios'].map((section) => (
           <a
             key={section}
             href={`#${section.toLowerCase()}`}
@@ -68,10 +101,11 @@ export default function MainNavBar() {
           </a>
         ))}
 
-        <div
-            key={"section"}
+        <a
+              href={`#contacto`}
+              key={"section"}
             style={navLinkStyle}
-            className='pa-8 px-2 tx-altfont-1 opaci-chov--75 Q_sm_x mt-8 tx-white nodeco'
+            className='pa-8 px-2 tx-altfont-1 opaci-chov--75 Q_sm_x mt-8 pt-7 tx-white nodeco'
           >
               
             {/* <a
@@ -82,8 +116,15 @@ export default function MainNavBar() {
             >
               {"LOGIN"}
             </a> */}
+            <div
+              
+              style={buttonStyle}
+              className='px-5 py-1 tx-altfont-1 opaci-chov--75 tx-white bord-r-5  nodeco'
+            >
+              {"Contacto"}
+            </div>
 
-          </div>
+          </a>
         
         <div
           onClick={toggleMenu}
