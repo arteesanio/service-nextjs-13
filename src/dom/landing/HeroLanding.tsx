@@ -13,7 +13,7 @@ export const HeroLanding = () => {
             <div className='px-4 Q_sm_x tx-xl '>Recuperación de Ransomware y <small>Eliminación Segura de Contenido Negativo</small></div>
             </div>
           </div>
-          <a href="#contact" className='z-10  w-100 flex flex-justify-end w-max-1080px translate-y-50 tx-white nodeco '>
+          <a href="#contacto" className='z-10  w-100 flex flex-justify-end w-max-1080px translate-y-50 tx-white nodeco '>
             <div className='mx-4 tx-lg tx-altfont-1 px-8 py-2 opaci-chov--50 flex-col'
               style={{background: "linear-gradient(85deg,#FB8300, #A93307)"}}
             >

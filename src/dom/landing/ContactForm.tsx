@@ -34,26 +34,74 @@ export const ContactForm = () => {
           <div className='mb-8 flex-col px-4 flex-align-start tx-altfont-1'>
             <h2 className='tx-altfont-1 tx-bold-1 py-3'></h2>
             <div className='flex-col flex-align-start '>
-              <a className='  nodeco py-6  flex-center gap-3' 
+                
+              <a className='  nodeco py-3   flex-center gap-3' 
                 style={{color: "#888888"}}
               >
-                <FaMapLocation /> 
-                <div className='Q_xs '>Panama City, Panama</div>
-                <div className='Q_sm_x tx-lx'>Panama City, Panama</div>
+                <FaMailBulk />
+                <div className='Q_xs '>support@irecoverydata.com</div>
+                <div className='Q_sm_x tx-lgx'>support@irecoverydata.com</div>
               </a>
-              <a className='  nodeco py-6  flex-center gap-3' 
+              <hr className='opaci-10 mb-4 w-100' />
+                
+              <a className='  nodeco py-3 flex-center gap-3' 
+                
+              >
+                🇵🇦
+                <div className='Q_xs tx-lx'>Panama</div>
+                <div className='Q_sm_x tx-lx'>Panama</div>
+              </a>
+              <a className='  nodeco py-3 flex-center gap-3' 
                 style={{color: "#888888"}}
               >
                 <FaPhone /> 
                 <div className='Q_xs '>+507 6997-0742</div>
                 <div className='Q_sm_x tx-lx'>+507 6997-0742</div>
               </a>
-              <a className='  nodeco py-6    flex-center gap-3' 
+              <hr className='opaci-10 mb-4 w-100' /> 
+              
+              <a className='  nodeco py-3 flex-center gap-3' 
+                
+              >
+                🇨🇴
+                <div className='Q_xs tx-lx'>Colombia</div>
+                <div className='Q_sm_x tx-lx'>Colombia</div>
+              </a>
+              <a className='  nodeco py-3 flex-center gap-3' 
                 style={{color: "#888888"}}
               >
-                <FaMailBulk />
-                <div className='Q_xs '>support@irecoverydata.com</div>
-                <div className='Q_sm_x tx-lgx'>support@irecoverydata.com</div>
+                <FaPhone /> 
+                <div className='Q_xs '>+57 3023075161</div>
+                <div className='Q_sm_x tx-lx'>+57 3023075161</div>
+              </a>
+              <hr className='opaci-10 mb-4 w-100' /> 
+              <a className='  nodeco py-3 flex-center gap-3' 
+              >
+                🇵🇦
+                <div className='Q_xs tx-lx'>Costa Rica</div>
+                <div className='Q_sm_x tx-lx'>Costa Rica</div>
+              </a>
+              <a className='  nodeco py-3 flex-center gap-3' 
+                style={{color: "#888888"}}
+              >
+                <FaPhone /> 
+                <div className='Q_xs '>+507 6997-0742</div>
+                <div className='Q_sm_x tx-lx'>+507 6997-0742</div>
+              </a>
+              <hr className='opaci-10 mb-4 w-100' />
+              <a className='  nodeco py-3 flex-center gap-3' 
+                style={{color: "#888888"}}
+              >
+                🇻🇪
+                <div className='Q_xs tx-lx'>Venezuela</div>
+                <div className='Q_sm_x tx-lx'>Venezuela</div>
+              </a>
+              <a className='  nodeco py-3 flex-center gap-3' 
+                style={{color: "#888888"}}
+              >
+                <FaPhone /> 
+                <div className='Q_xs '>+507 6997-0742</div>
+                <div className='Q_sm_x tx-lx'>+507 6997-0742</div>
               </a>
               <hr className='opaci-10 mb-8 w-100' />
               <div className='flex-wrap w-100 flex-justify-around gap-3 tx-lx'>
