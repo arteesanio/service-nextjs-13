@@ -20,10 +20,10 @@ export const AboutUsRecovery = () => {
               <div className='px-4'>Datos virtuales podrán ser presentados como pruebas electrónicas ante la justicia.</div>
             </div>
             <div className="Q_xs py-8 pos-rel">
-            <div  className='pos-abs pa-100 ' style={{filter: "blur(80px)", background: "#06224377"}}></div>
+              <div  className='pos-abs pa-100 ' style={{filter: "blur(80px)", background: "#06224377"}}></div>
             </div>
-            <div className='px-4 flex-col flex-align-start'>
-              <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4  border-white opaci-chov--50 tx-bold-2'>
+            <div className='px-4 flex-col flex-align-start z-10'>
+              <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-50 px-4  border-white opaci-chov--50 tx-bold-2'>
                 <div className='Q_xs_py-4'>Contacta a nuestro equipo de expertos y recupera datos →</div>
               </div>
               <a href="https://api.whatsapp.com/send?phone=50769970742" className='tx-white tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4  border-white opaci-chov--50 tx-bold-2'>

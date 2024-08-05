@@ -1,21 +1,21 @@
 export const serviceCardsData = [
   {
-    title: "RECUPERACIÓN DE DATOS",
-    description: "Recuperación de Datos de soporte de almacenamiento, disco duro, SSD, NAS, RAID, server, DVR.",
-    chatMsg: "Quisiera saber mas acerca de recuperación de Datos de soporte de almacenamiento, disco duro, SSD, NAS, RAID, server, DVR.",
-    chatMsgReq: "Quisiera reservar una recuperación de Datos de soporte de almacenamiento, disco duro, SSD, NAS, RAID, server, DVR.",
-    icon: "📂",
-    height: '300px',
-    key: 'recuperacion'
-  },
-  {
     title: "ANÁLISIS FORENSE",
     description: "La búsqueda de datos informáticos como una prueba fiable y legal. a través de profesionales.",
     chatMsg: "Quisiera saber mas acerca de la búsqueda de datos informáticos como una prueba fiable y legal. a través de profesionales.",
     chatMsgReq: "Quisiera reservar una la búsqueda de datos informáticos como una prueba fiable y legal. a través de profesionales.",
     icon: "📝",
-    height: '400px',
+    height: '300px',
     key: 'analisis'
+  },
+  {
+    title: "RECUPERACIÓN DE RANSOMWARE",
+    description: "Recuperación de Datos de soporte de almacenamiento, disco duro, SSD, NAS, RAID, server, DVR.",
+    chatMsg: "Quisiera saber mas acerca de recuperación de Datos de soporte de almacenamiento, disco duro, SSD, NAS, RAID, server, DVR.",
+    chatMsgReq: "Quisiera reservar una recuperación de Datos de soporte de almacenamiento, disco duro, SSD, NAS, RAID, server, DVR.",
+    icon: "📂",
+    height: '450px',
+    key: 'recuperacion'
   },
   {
     title: "ELIMINACIÓN SEGURA",
@@ -31,7 +31,7 @@ export const serviceCardsData = [
 const ServiceCard = ({ title, description, icon, height, chatMsg, chatMsgReq }:any) => (
   <div className={`h-${height} flex-col py-100 bord-r-15`}>
     <div className='pa-2 flex-1 flex-col bord-r-25' style={{ background: "linear-gradient(-50deg, #1B114B, #1551AE)" }}>
-      <div className="tx-altfont-1 w-min-200px bg-b-90 flex-1 bord-r-25 py-6 px-4 flex-col box-shadow-i-5-b">
+      <div className="tx-altfont-1 w-min-200px w-max-300px bg-b-90 flex-1 bord-r-25 py-6 px-4 flex-col box-shadow-i-5-b">
         <div className="tx-center pb-2 tx-lgx">{title}</div>
         <div className='flex-1 flex-col'>
           <div className='pa-8 bord-r-100p flex-col' style={{ background: "linear-gradient(150deg, #1B114B, #1551AE)" }}>

@@ -5,7 +5,7 @@ import './globals.css'
 // const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Data Recovery Services',
+  title: 'iRecovery Data Panama',
   description: 'Professional physical hard drive recovery services. Retrieve your lost data quickly and securely with our expert team and advanced technology.',
   keywords: 'data recovery, hard drive recovery, data recovery services, physical drive recovery, lost data retrieval',
   twitter: {

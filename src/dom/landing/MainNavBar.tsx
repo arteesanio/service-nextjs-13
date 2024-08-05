@@ -39,25 +39,23 @@ export default function MainNavBar() {
           style={{ boxShadow: "0 0 15px #aaccff33" }}
         />
       </a>
-      <div className='flex Q_sm_x'>
+      {/* <div className='flex Q_sm_x'>
         
-<div className="flex-center  mt-8 mr-4 ">
-  
-
-  <a
-                  href={`/?lang=${"es".toLowerCase()}`}
-                  className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-l-5  nodeco'
-                >
-                  {"ES"}
-                </a>
-                <a
-                  href={`/?lang=${"en".toLowerCase()}`}
-                  className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-r-5  nodeco'
-                >
-                  {"EN"}
-                </a>
-            </div>
-      </div>
+        <div className="flex-center  mt-8 mr-4 ">
+          <a
+            href={`/?lang=${"es".toLowerCase()}`}
+            className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-l-5  nodeco'
+          >
+            {"ES"}
+          </a>
+          <a
+            href={`/?lang=${"en".toLowerCase()}`}
+            className='px-2 py-1 tx-altfont-1 opaci-chov--75 tx-white bg-b-90 bord-r-r-5  nodeco'
+          >
+            {"EN"}
+          </a>
+        </div>
+      </div> */}
       <div className='flex'>
         {['Nosotros', 'Servicios', 'Contacto'].map((section) => (
           <a
@@ -70,21 +68,20 @@ export default function MainNavBar() {
           </a>
         ))}
 
-<div
+        <div
             key={"section"}
             style={navLinkStyle}
             className='pa-8 px-2 tx-altfont-1 opaci-chov--75 Q_sm_x mt-8 tx-white nodeco'
           >
-            {/* {"section"} */}
               
-<a
+            {/* <a
               key={"LOGIN"}
               href={`/?LOGIN=${"LOGIN".toLowerCase()}`}
               style={buttonStyle}
               className='px-5 py-1 tx-altfont-1 opaci-chov--75 tx-white bord-r-5  nodeco'
             >
               {"LOGIN"}
-            </a>
+            </a> */}
 
           </div>
         
@@ -105,7 +102,7 @@ export default function MainNavBar() {
           >
             <FaTimes />
           </div>
-          <div
+          {/* <div
             onClick={() => alert("Coming Soon...")}
             style={buttonStyle}
             className='px-8 py-3 tx-altfont-1 border-white tx-ls-5 opaci-chov--75 tx-white bord-r-5 ml-4 nodeco'
@@ -123,7 +120,7 @@ export default function MainNavBar() {
                 {lang}
               </a>
             ))}
-          </div>
+          </div> */}
             <hr className='opaci-10 w-90 my-2' />
           <div className="flex-col w-100 flex-align-stretch gap-2">
             {['Nosotros', 'Servicios', 'Contacto'].map((section) => (
@@ -142,16 +139,19 @@ export default function MainNavBar() {
             <hr className='opaci-10 w-90 my-2' />
           
           <div className="flex-col w-100  gap-2">
-            {['Análisis Gratis', 'Abrir App'].map((section) => (
               <a
-                key={section}
-                href={`#${section.toLowerCase()}`}
+                href={`https://api.whatsapp.com/send?phone=50769970742`}
+                
+                className='px-5 py-3 border-white tx-altfont-1 opaci-chov--75 tx-white bord-r-100 mx-4 nodeco'
+              >
+                {"Análisis Gratis"}
+              </a>
+              <a
                 onClick={()=>alert("Coming Soon...")}
                 className='px-5 py-3 border-white tx-altfont-1 opaci-chov--75 tx-white bord-r-100 mx-4 nodeco'
               >
-                {section}
+                {"Abrir App"}
               </a>
-            ))}
           </div>
         </div>
       )}
