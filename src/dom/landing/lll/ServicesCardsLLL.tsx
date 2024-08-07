@@ -1,4 +1,4 @@
-import { ServiceCardLLL } from "../ServicesCards";
+import { ServiceCardLLL } from "../ServiceCardLLL";
 
 
 export const ServicesCardsLLL = () => (

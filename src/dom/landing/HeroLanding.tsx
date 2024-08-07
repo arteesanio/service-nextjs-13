@@ -6,11 +6,11 @@ export const HeroLanding = () => {
       <div className='w-max-1080px w-100 z-10 flex '>
         <div className=' w-max-600px ' style={{}}>
         <div className='pl-2 Q_xs w-max-300px'>
-          <div className=' ' style={{fontSize: "2rem"}}>Recuperación de Ransomware.</div>
+          <div className=' ' style={{fontSize: "1.6rem"}}>Eliminación de Contenido Negativo.</div>
           <hr className=" w-90 opaci-10" />
-          <div className=' tx-lg tx-altfont-1 p pb-8'>Análisis y Eliminación Segura de Contenido Negativo.</div>
+          <div className=' tx-lg tx-altfont-1 p pb-8'>Análisis y Recuperación de datos secuestrados por Ransomware.</div>
         </div>
-        <div className='px-4 Q_sm_x tx-xl '>Recuperación de Ransomware y <small>Eliminación Segura de Contenido Negativo</small></div>
+        <div className='px-4 Q_sm_x tx-xl '>Eliminación de Contenido Negativo y Recuperación de datos secuestrados por Ransomware</div>
         </div>
       </div>
       <a href="#contacto" className='z-10  w-100 flex flex-justify-end w-max-1080px translate-y-50 tx-white nodeco '>

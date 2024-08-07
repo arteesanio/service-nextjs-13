@@ -31,7 +31,8 @@ export default function MainNavBar() {
 
   return (
     <div className='flex w-max-1080px w-100 pos-fix z-100 top-0'>
-      <a className='flex-1 flex-col flex-align-start pl-8' href='/'> 
+      <div className='flex-1 flex-col flex-align-start'>
+      <a className=' flex-col flex-align-start pl-8' href='/'> 
         <img 
           src='/sectionspng/logo.png'
           className='block bg-glass-6 bg-b-90 bord-r-100p opaci-chov--75 px-2 py-1'
@@ -39,6 +40,7 @@ export default function MainNavBar() {
           style={{ boxShadow: "0 0 15px #aaccff33" }}
         />
       </a>
+      </div>
       {/* <div className='flex Q_sm_x'>
         
         <div className="flex-center  mt-8 mr-4 ">
