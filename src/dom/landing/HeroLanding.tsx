@@ -23,8 +23,8 @@ export const HeroLanding = () => {
         </a>
       </div>
       <div className='pos-abs w-100  flex-col top-0 left-0'>
-        <img src='/sectionspng/artwork(29) - copia.png' className='block w-100' />
-        <img src='/sectionspng/bighacker.gif' className='block w-100 opaci-50 pos-abs' />
+        <img src='/sectionspng/midhacker.gif' className='block w-100 opaci-' />
+        <img src='/sectionspng/artwork(29) - copia.png' className='block w-100 opaci-20 pos-abs top-0' />
       </div>
     </div>
   </>)
