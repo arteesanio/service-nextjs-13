@@ -6,8 +6,8 @@ export const HeroLanding = () => {
       <div className='w-max-1080px w-100 z-10 flex btn-shine tx-altfont-3'>
         <div className=' w-max-600px ' style={{}}>
         {/* <a href="https://check.so" className="btn-shine" target="_blank">Get early access</a> */}
-        <div className='pl-2 Q_xs w-max-300px'>
-          <div className=' ' style={{fontSize: "1.6rem"}}><span className="">Eliminación</span> de Contenido Negativo.</div>
+        <div className='pl-4 Q_xs w-max-300px'>
+          <div className='tx-xxl ' style={{}}><span className="">Eliminación</span> de Contenido Negativo.</div>
           <hr className=" w-90 opaci-10" />
           <div className=' tx-lg tx-altfont-1 p pb-8'>Análisis y Recuperación de datos secuestrados por <span className="txxxx">Ransomware</span>.</div>
         </div>
