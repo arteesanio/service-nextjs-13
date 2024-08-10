@@ -10,6 +10,7 @@ import { RecoveryMethodsSection } from '@/dom/landing/RecoveryMethodsSection'
 import { ContactForm } from '@/dom/landing/ContactForm'
 import { ContactProfesionals } from '@/dom/landing/ContactProfesionals'
 import MainNavBar from '@/dom/landing/MainNavBar'
+import { ProductsCards } from '@/dom/landing/ProductsCards'
 
 
 
@@ -27,18 +28,31 @@ return (
     <div id='servicios'></div>
     <img src='/sectionspng/moutnain.png' className='block w-100' />
 
-    <div className=' pb-150 flex-col w-100 ' style={{ background: "#02040B" }}>
-      <ServicesCards />
+    <div className=' flex-col w-100  b-100' style={{ background: "#02040B" }}>
+      <div className='z-5  flex-col w-100 pos-rel ' >
+      
+        <a className='pos-abs bottom-0  translate-y--50 pt-2 100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
+          <div className='tx-white tx-center tx-lx px-8  py-2' style={{background: "#1D2A76"}}>
+            <div>Recuperamos <br /> datos de DVR</div>
+          </div>
+        </a>
+        <ServicesCards />
+      </div>
+      <div className='flex-col w-100 m y-100 ' >
+      <img src='/img/0810(6).gif' className='block w-100 opaci-10 pos-abs' />
+        <div className='z-5 pb-150 flex-col w-100 pos-rel' ><ProductsCards /></div>
+
+      </div>
     </div>
     <div className='flex-col pos-rel w-100'>
-      <a className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
-        <div className='tx-white tx-center tx-lgx px-8  py-2' style={{background: "#1D2A76"}}>
-          <div>Recuperamos <br /> datos de DVR</div>
+      <a className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=Proteccion">
+        <div className='tx-white tx-center tx-lx px-8  py-2' style={{background: "#1D2A76"}}>
+          <div>Contactanos</div>
         </div>
       </a>
       <div className='pos-abs top-0 mt-100 z-100'>
         <div className='tx-white tx-lx   py-2' style={{background: ""}}>
-          Testimonials
+          Protección
         </div>
       </div>
 

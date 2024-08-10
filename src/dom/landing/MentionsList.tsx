@@ -1,41 +1,22 @@
-const MentionItem = ({ name, title, feedback, className }:any) => {
+const MentionItem = ({ title, description, className }: any) => {
   return (
-    <div className={'bg-white tx-black w-max-300px pa-4 tx-altfont-1 '+ className}
+    <div className={'bg-white tx-black w-max-300px pa-4 tx-altfont-1 ' + className}
       style={{ clipPath: "polygon(0% 0%, 0% 100%, 100% 100%, 100% 20%, 90% 0%)" }}
     >
-      <div className='tx-altfont-2'>{name}</div>
-      <div>{title}</div>
+      <div className='tx-altfont-2'>{title}</div>
       <hr className='opaci-10 mb-2' />
-      <i>{feedback}</i>
+      <i>{description}</i>
     </div>
   );
 };
 
 const mentions = [
-  { name: 'John D.', title: 'Company X', feedback: 'Excellent service! They recovered all our critical data after a major server crash. Highly recommend their IT support.',
-    className: '',
-   },
-  { name: 'Jane S.', title: 'Freelancer', feedback: 'I thought I had lost all my work after my hard drive failed, but they managed to retrieve everything. Lifesavers!',
-    className: '',
-   },
-  { name: 'Michael B.', title: 'Startup Inc.', feedback: 'Their IT consultancy helped us set up a reliable data backup system. Now we feel much more secure about our data.',
-    className: '',
-   },
-  { name: 'Susan K.', title: 'Photographer', feedback: 'They recovered my entire photo library from a damaged drive. I can’t thank them enough!',
-    className: '',
-   },
-  { name: 'David R.', title: 'Small Business Owner', feedback: 'Professional and efficient. They got our office network back up and running in no time after a malware attack.',
-    className: '',
-   },
-  { name: 'Linda M.', title: 'Graphic Designer', feedback: 'I was in panic mode after my external hard drive crashed, but they managed to recover all my files. Truly amazing service!',
-    className: 'Q_sm_x',
-   },
-  { name: 'Robert C.', title: 'Law Firm', feedback: 'Top-notch data recovery service. They were able to recover sensitive client data that we thought was lost forever.',
-    className: 'Q_sm_x',
-   },
-  { name: 'Emily W.', title: 'Writer', feedback: 'When my laptop died, they recovered all my manuscripts and important documents. Highly grateful for their help!',
-    className: 'Q_sm_x',
-   },
+  { title: 'Gestión de Reputación', description: 'Gestión integral de la reputación para individuos, marcas, empresas y entidades gubernamentales. Servicios incluyen limpieza de reputación, monitoreo y construcción de reputación positiva. Garantía de confidencialidad y alta tasa de satisfacción.', className: '' },
+  { title: 'Limpieza de Reputación', description: 'Eliminación, desindexación y modificación de contenido negativo en línea. Asesoría legal y estrategia global para la eliminación de contenido. Asegura que los enlaces negativos sean inrastreados o modificados.', className: '' },
+  { title: 'Monitoreo de Reputación', description: 'Escaneo de redes en tiempo real para monitorear la reputación en línea. Intercepta y maneja crisis de reputación en motores de búsqueda, redes sociales, foros y la web profunda. Utiliza algoritmos propietarios para análisis de sentimiento e interceptación de crisis.', className: '' },
+  { title: 'Construcción de Reputación Positiva', description: 'Mejora la presencia positiva en línea. Coloca contenido neutral y positivo en motores de búsqueda y redes sociales. Alcanza objetivos de reputación futura en un corto período de tiempo.', className: '' },
+  { title: 'Gestión de Crisis', description: 'Anticipa y gestiona posibles crisis de reputación. Desarrolla planes de acción y estrategias de respuesta inmediata. Monitorea y adapta las estrategias en tiempo real para minimizar daños.', className: '' },
+  { title: 'Análisis de Datos y Monitoreo de Big Data', description: 'Utiliza big data y ciencia de datos para análisis y monitoreo en profundidad. Proporciona conocimientos a través de plataformas geo-habilitadas y multilingües. Alertas y reportes personalizables para monitoreo y análisis continuo.', className: 'Q_sm_x' },
 ];
 
 export const MentionsList = () => {
@@ -44,14 +25,11 @@ export const MentionsList = () => {
       {mentions.map((mention, index) => (
         <MentionItem
           key={index}
-          name={mention.name}
           title={mention.title}
-          feedback={mention.feedback}
+          description={mention.description}
           className={mention.className}
         />
       ))}
     </div>
   );
 };
-
-
