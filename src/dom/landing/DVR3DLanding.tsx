@@ -19,7 +19,7 @@ const CameraSetup = () => {
 
 export const Character3DLanding = () => {
     return (
-        <Canvas style={{ width: "90vw", left:"4%", height: "100vh" }} shadows 
+        <Canvas style={{ width: "90vw", left:"4%", height: "100vh", pointerEvents: 'none' }} shadows 
           camera={{position: [3,6,3]}}
         > 
             <OrbitControls 
