@@ -25,6 +25,7 @@ export const Character3DLanding = () => {
             <OrbitControls 
               enableZoom={false}
               enablePan={false}
+              enableRotate={false}
               autoRotate
               autoRotateSpeed={5}
              />
