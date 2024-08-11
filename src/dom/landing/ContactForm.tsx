@@ -52,7 +52,7 @@ export const ContactForm = () => {
             </div>
             <div
               className='flex-center tx-altfont-1 gap-4 tx-white tx-center tx-lgx px-8 py-2 opaci-chov--75'
-              style={{ background: "#1D2A76" }}
+              style={{ background: "#001542" }}
               onClick={handleSend}
             >
               <FaMessage />

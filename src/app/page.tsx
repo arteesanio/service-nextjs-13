@@ -12,6 +12,7 @@ import { ContactProfesionals } from '@/dom/landing/ContactProfesionals'
 import MainNavBar from '@/dom/landing/MainNavBar'
 import { ProductsCards } from '@/dom/landing/ProductsCards'
 import { DVR3DLanding } from '@/dom/landing/DVR3DLanding'
+import { CEOSection } from '@/dom/landing/CEOSection'
 
 
 
@@ -104,6 +105,7 @@ return (
       </div>
     </div>
 
+
     <div className='flex-col w-100 mt-100'
       style={{background: "linear-gradient(0deg, #000000, #020D1A33, #020D1A33, #000000)"}}
     >
@@ -134,6 +136,10 @@ return (
   </div>
   </div> */}
 
+<div className='flex-col w-100 '>
+      <CEOSection />
+    </div>
+    
   <IFooterSection />
   <ContactButton />
 
