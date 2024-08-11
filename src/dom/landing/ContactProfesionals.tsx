@@ -5,7 +5,7 @@ export const ContactProfesionals = () => {
   <div className="flex w-100 gap-8 Q_xs_sm_flex-col noverflow">
           <div className='flex-1 flex-col'>
             <div className='w-100 flex-col tx-altfont- flex-align-start px-4 pos-rel '>
-              <div  className='pos-abs pa-100 top-0' style={{filter: "blur(80px)", background: "#062243"}}></div>
+              <div  className='pos-abs pa-100 top-0 hover-4' style={{filter: "blur(80px)", background: "#062243"}}></div>
               <div className='pl-4 z-5 Q_xs w-100 tx-lgx pt-100'>
                 Contacta Técnicos Profesionales <br /> para Análisis y 
                 <div style={{textShadow: "35px 0  50px  #66330077"}}>Eliminación</div>

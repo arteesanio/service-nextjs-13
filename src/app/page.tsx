@@ -11,6 +11,7 @@ import { ContactForm } from '@/dom/landing/ContactForm'
 import { ContactProfesionals } from '@/dom/landing/ContactProfesionals'
 import MainNavBar from '@/dom/landing/MainNavBar'
 import { ProductsCards } from '@/dom/landing/ProductsCards'
+import { DVR3DLanding } from '@/dom/landing/DVR3DLanding'
 
 
 
@@ -28,22 +29,46 @@ return (
     <div id='servicios'></div>
     <img src='/sectionspng/moutnain.png' className='block w-100' />
 
+
+
+
     <div className=' flex-col w-100  b-100' style={{ background: "#02040B" }}>
-      <div className='z-5  flex-col w-100 pos-rel ' >
+      <div className='  flex-col w-100 pos-rel ' >
+
+    
+        <ServicesCards />
+      </div>
+
       
-        <a className='pos-abs bottom-0  translate-y--50 pt-2 100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
-          <div className='tx-white tx-center tx-lx px-8  py-2' style={{background: "#1D2A76"}}>
+      <div>
+    
+    <div className=' flex-col w-100 pos-rel  b-100' style={{ background: "#02040B" }}>
+
+    <div className='   flex-col z-2 noclick'><DVR3DLanding /></div>
+
+      <img src='/img/0810(1).gif' className='block w-100 opaci-100 pos-abs bord-r-25 ' 
+        style={{filter: "hue-rotate(110deg) blur(3px)"}}
+      />
+      <div className='  flex-col w-100  z-10 pos-abs ' >
+      <a className=' pt-2 100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
+          <div className='tx-white tx-center tx-lx px-8  py-2 bg-glass-5' style={{background: "#1D2A76cc"}}>
             <div>Recuperamos <br /> datos de DVR</div>
           </div>
         </a>
-        <ServicesCards />
       </div>
+    </div>
+
+    </div>
+
       <div className='flex-col w-100 m y-100 ' >
       <img src='/img/0810(6).gif' className='block w-100 opaci-10 pos-abs' />
         <div className='z-5 pb-150 flex-col w-100 pos-rel' ><ProductsCards /></div>
 
       </div>
     </div>
+
+
+
     <div className='flex-col pos-rel w-100'>
       <a className='pos-abs bottom-0 mb-100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=Proteccion">
         <div className='tx-white tx-center tx-lx px-8  py-2' style={{background: "#1D2A76"}}>

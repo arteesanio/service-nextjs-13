@@ -119,7 +119,7 @@ const ServiceCard = ({ title, description, icon, height, more, chatMsg, chatMsgR
 );
 
 export const ServicesCards = () => (
-  <div className='flex-wrap gap-4 px-4 w-max-1080px mb-100 pb-200'>
+  <div className='flex-wrap gap-4 px-4 w-max-1080px mb-100 pb-200 z-5'>
   <div className="w-100 flex-col mt-100 pb-8">
     <div className="tx-xl">Servicios</div>
   </div>

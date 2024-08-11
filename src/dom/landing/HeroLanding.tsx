@@ -16,7 +16,11 @@ export const HeroLanding = () => {
       </div>
       <div className='z-10  w-100 flex flex-justify-end w-max-1080px translate-y-50  '>
         <a href="#contacto" className='mx-4 tx-lg tx-altfont-1 px-8 py-2 opaci-chov--50 flex-col tx-white nodeco'
-          style={{background: "linear-gradient(85deg,#FB8300, #A93307)"}}
+          style={{
+            background: "linear-gradient(85deg,#FB8300, #A93307)",
+            boxShadow: "0 0 10px #FB8300aa, 0 0 30px #A93307aa",
+
+          }}
         >
           <div>Abrir Ticket</div>
           <div className="tx-lx ">Gratis</div>
