@@ -33,10 +33,10 @@ export const RecoveryMethodsSectionLLL = () => {
       <div className=' flex-col pos-rel'>
         <img src="/sectionspng/screen1.png" alt="asd" className='w-100 w-max-400px' />
         <div className='box-shadow-5-t pos-abs tx-white  bottom-0 translate-y--75 opaci-chov--75 Q_sm_x' style={{ background: "#16358F" }}>
-          <div className=' tx-altfont-1 tx-xl px-8 py-2'>Abrir App</div>
+          <div className=' tx-altfont-1 tx-xl px-8 py-2'>Consultar</div>
         </div>
         <div className='box-shadow-5-t pos-abs tx-white  bottom-0  opaci-chov--75 Q_xs' style={{ background: "#16358F" }}>
-          <div className=' tx-altfont-1 tx-xl px-8 py-2'>Abrir App</div>
+          <div className=' tx-altfont-1 tx-xl px-8 py-2'>Consultar</div>
         </div>
       </div>
     </div>

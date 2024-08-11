@@ -193,7 +193,7 @@ export default function MainNavBar() {
                 onClick={()=>alert("Coming Soon...")}
                 className='px-5 py-3 border-white tx-altfont-1 opaci-chov--75 tx-white bord-r-100 mx-4 nodeco'
               >
-                {"Abrir App"}
+                {"Consultar"}
               </a>
           </div>
         </div>
