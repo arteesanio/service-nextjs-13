@@ -28,7 +28,7 @@ return (
     <AboutUsRecovery />
 
     <div id='servicios'></div>
-    <img src='/sectionspng/moutnain.png' className='block w-100' />
+    <div className='pos-rel flex-col w-100 py-8' ><img src='/sectionspng/moutnain.png' className='block w-100 pos-abs' /></div>
 
 
 
@@ -61,14 +61,14 @@ return (
 
     </div>
 
-      <div className='flex-col w-100 m y-100 ' id="proteccion" >
+      <div className='flex-col w-100 m y-100 ' >
       <img src='/img/0810(6).gif' className='block w-100 opaci-10 pos-abs' />
         <div className='z-5 pb-150 flex-col w-100 pos-rel' ><ProductsCards /></div>
 
       </div>
     </div>
 
-
+<div id="proteccion" ></div>
 
     <div className='flex-col pos-rel w-100'>
       <a className='pos-abs bottom-0 mb-100 z-50 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=Proteccion">

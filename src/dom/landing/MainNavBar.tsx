@@ -92,7 +92,7 @@ export default function MainNavBar() {
         </div>
       </div> */}
       <div className='flex'>
-        {['Nosotros', 'Servicios'].map((section) => (
+        {['Nosotros', 'Servicios', 'Proteccion'].map((section) => (
           <a
             key={section}
             href={`#${section.toLowerCase()}`}
