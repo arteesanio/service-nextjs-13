@@ -136,10 +136,8 @@ return (
   </div>
   </div> */}
 
-<div className='flex-col w-100 '>
       <CEOSection />
-    </div>
-    
+
   <IFooterSection />
   <ContactButton />
 
