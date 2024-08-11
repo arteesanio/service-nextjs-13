@@ -137,7 +137,7 @@ export default function MainNavBar() {
         </div>
       </div>
       {menuOpen && (
-        <div className='flex-col bg-black pos-abs top-0 right-0 shadow-md flex-align-start gap-2 w-100 h-100vh flex-justify-start Q_xs_md pt-8'>
+        <div className='flex-col bg-black pos-abs top-0 right-0 shadow-md flex-align-start gap-2 w-100 h-100vh flex-justify-start Q_xs_md pt-8 z-500 '>
           <div
             onClick={toggleMenu}
             style={buttonStyle}
@@ -166,7 +166,7 @@ export default function MainNavBar() {
           </div> */}
             <hr className='opaci-10 w-90 my-2' />
           <div className="flex-col w-100 flex-align-stretch gap-2">
-            {['Nosotros', 'Servicios', 'Contacto'].map((section) => (
+            {['Nosotros', 'Servicios', 'Proteccion', 'Contacto'].map((section) => (
               <a
                 key={section}
                 href={`#${section.toLowerCase()}`}

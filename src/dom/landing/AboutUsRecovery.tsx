@@ -21,7 +21,7 @@ export const AboutUsRecovery = () => {
               </div>
             </div>
             <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-50 px-4 mt-8 mb-4  border-white tx-bold-2'>
-              <div className='Q_xs_py-4'>Mision</div>
+              <div className='Q_xs_py-2'>Mision</div>
             </div>
             <div className='tx-altfont-1 w-max-600px py-1 w-100 '>
               <div className='px-4'>Tenemos como objetivo final la entrega de una informacion valiosa para quienes nos necesiten, ofreciendo tambien en todos y cada uno de nuestros casos la confidencialidad y seguridad de la informacion que manipulamos a través de contratos y certificaciones.</div>
@@ -35,7 +35,7 @@ export const AboutUsRecovery = () => {
                   <div className='Q_xs_py-4'>Contacta a nuestro equipo de expertos y recupera datos →</div>
                 </div> */}
                 <div className='tx-altfont-1 tx-lg mt-4 py-2 bord-r-50 px-4 mt-8 mb-4  border-white tx-bold-2'>
-                  <div className='Q_xs_py-4'>Vision</div>
+                  <div className='Q_xs_py-2'>Vision</div>
                 </div>
                 {/* <a href="https://api.whatsapp.com/send?phone=50769970742" className='tx-white tx-altfont-1 tx-lg mt-4 py-2 bord-r-100 px-4  border-white opaci-chov--50 tx-bold-2'>
                   Análisis Gratis →
