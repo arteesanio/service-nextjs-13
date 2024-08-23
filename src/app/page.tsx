@@ -52,7 +52,7 @@ return (
       />
       <div className='  flex-col w-100  z-10 pos-abs ' >
       <a className=' pt-2 100 z-100 opaci-chov--50 nodeco ' href="https://api.whatsapp.com/send?phone=50769970742&text=DVR">
-          <div className='tx-white tx-center tx-lx px-8  py-2 bg-glass-5' style={{background: "#1D2A76cc"}}>
+          <div className='tx-white tx-center tx-lx px-8 hover-3 py-2 bg-glass-5' style={{background: "#1D2A76cc"}}>
             <div>Recuperamos <br /> datos de DVR</div>
           </div>
         </a>
