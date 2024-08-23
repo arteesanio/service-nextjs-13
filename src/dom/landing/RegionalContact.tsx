@@ -1,4 +1,4 @@
-import { FaPhone, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaPhone, FaTwitter, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const contactData = [
   {
@@ -31,7 +31,7 @@ const contactData = [
 const socialLinks = [
   { icon: FaTwitter, link: 'https://www.instagram.com/irecoverypanama/' },
   { icon: FaInstagram, link: 'https://www.instagram.com/irecoverypanama/' },
-  { icon: FaFacebook, link: 'https://www.instagram.com/irecoverypanama/' },
+  { icon: FaTelegram, link: 'https://t.me/irecovery_bot/' },
 ];
 
 export const RegionalContact = () => {
