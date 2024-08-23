@@ -49,7 +49,7 @@ export const IFooterSection = () => {
           <div className='mb-8 flex-col px-4 flex-align-start tx-altfont-1'>
             <h2 className='tx-altfont-1 tx-bold-1 py-3'></h2>
             <div className='flex-col flex-align-start tx-lg'>
-              <a className='  nodeco pa-2 px-4 tx-md' style={{color: "#aabbcc"}}>
+              <a className='  nodeco pa-2 px-4 tx-md' style={{color: "#aabbcc"}} href="mailto:info@irecoverygroup.com" >
               <FaMailBulk /> info@irecoverygroup.com
               </a>
               <a className='  nodeco pa-2 px-4' style={{color: "#223344"}}>
