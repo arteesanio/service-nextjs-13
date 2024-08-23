@@ -6,11 +6,6 @@ const contactData = [
     flag: "🇵🇦",
     phone: "+507 6997-0742",
   },
-  {
-    country: "Trinidad & Tobago",
-    flag: "🇹🇹",
-    phone: "+57 3023075161",
-  },
   // {
   //   country: "Colombia",
   //   flag: "🇨🇴",
@@ -24,6 +19,11 @@ const contactData = [
   {
     country: "Venezuela",
     flag: "🇻🇪",
+    phone: "+58 424-381-5757",
+  },
+  {
+    country: "Trinidad & Tobago",
+    flag: "🇹🇹",
     phone: "+58 424-381-5757",
   },
 ];
@@ -42,11 +42,11 @@ export const RegionalContact = () => {
         <div className="flex-col flex-align-start">
           {contactData.map(({ country, flag, phone }) => (
             <div key={country}>
-              <a className="nodeco py-3 flex-center gap-3">
+              <a className="nodeco py-3 flex-center gap-3 w-max-200px">
                 {flag}
                 <div className="tx-lgx">{country}</div>
               </a>
-              <div className="nodeco pb-3 flex-center gap-3" style={{ color: "#888888" }}>
+              <div className="nodeco pb-3 flex flex-align-center gap-3 " style={{ color: "#888888" }}>
                 <FaPhone />
                 <div>{phone}</div>
               </div>
