@@ -41,8 +41,8 @@ export const AboutUsRecovery = () => {
                   Análisis Gratis →
                 </a> */}
               </div>
-              <div className='tx-altfont-1 w-max-600px py-1 w-100 '>
-                <div className='px-4 tx-right'>Como laboratorio informatico siempre estamos actualizando nuestros software a las diferentes agresiones y a los nuevos y continuos cambios en dispositivos, no tenemos un limite, y nuestros los casos de nuestros diferentes clientes son nuestra inspiración.</div>
+              <div className='tx-altfont-1 w-max-500px py-1 w-100 '>
+                <div className='px-4 tx-right'>Como laboratorio informatico siempre estamos actualizando nuestros software a las diferentes agresiones y a los nuevos y continuos cambios en dispositivos. No tenemos límites, y los casos de nuestros diferentes clientes son nuestra inspiración.</div>
               </div>
               {/* <div className='tx-altfont-1 w-max-600px py-1 w-100 '>
                 <div className='px-4 tx-right'>Para irecovery es determinante poder llegar a todas las necesidades informáticas que nuestros clientes demandan y permanecer en el tiempo ofreciendo siempre soluciones tantas veces sea posible.</div>

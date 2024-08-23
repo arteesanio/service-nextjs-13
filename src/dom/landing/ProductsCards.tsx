@@ -67,7 +67,7 @@ export const ProductsCards = () => (<>
     <div className="tx-xl">Servicios Empresariales</div>
   </div>
 
-  <div className='flex Q_xs_flex-col gap-4 px-4 w-max-1080px gap-4'>
+  <div className='flex Q_xs_md_flex-col flex-align-stretch gap-4 px-4 w-max-1080px gap-4'>
 
   
 {cryptedPhoneServices.map(({ title, description, icon, height, chatMsg, chatMsgReq }) => (

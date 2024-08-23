@@ -4,10 +4,11 @@ import { GiBoltBomb } from "react-icons/gi";
 import { GiBubblingFlask } from "react-icons/gi";
 import { GiBrickWall } from "react-icons/gi";
 import { GiBrokenWall } from "react-icons/gi";
+import { MdPublicOff } from "react-icons/md";
 
 export const iRecoveryServices = [
   {
-    title: "Recuperación de Datos de Ransomware",
+    title: "Recuperación de datos secuestrados por Ransomware",
     description: "Servicios completos de recuperación de datos para dispositivos dañados, corruptos o inaccesibles.",
     more: "Especializados en discos duros, sistemas RAID, medios ópticos, pendrives, SSDs, tarjetas de memoria MMC y SD, smartphones, teléfonos móviles y tarjetas SIM. Trabaja en Clean Room ISO5 utilizando tecnología avanzada para la recuperación de datos. Tasa de éxito del 98% en la recuperación de datos.",
     chatMsg: "Me gustaría saber más sobre sus servicios completos de recuperación de datos para dispositivos dañados, corruptos o inaccesibles.",
@@ -67,19 +68,19 @@ export const iRecoveryServices = [
     key: 'protection_service_plan'
   },
   {
-    title: "Pruebas de Penetración",
-    description: "Estrategia de defensa cibernética para probar la seguridad de los sistemas informáticos. Identifica y aborda posibles vulnerabilidades de seguridad.",
-    more: "Proporciona soluciones para proteger datos e información valiosa.",
-    chatMsg: "Me gustaría saber más sobre los servicios de pruebas de penetración para identificar vulnerabilidades de seguridad.",
-    chatMsgReq: "Me gustaría solicitar servicios de pruebas de penetración para mi sistema informático.",
+    title: "World Delete",
+    description: "Eliminación total y segura de todos cualquier contenido negativo digital en un entorno global. Este servicio asegura que todos los datos en servidores, dispositivos y nubes sean permanentemente destruidos.",
+    more: "World Delete garantiza que su reputación en Internet sea perfecta. Protegemos su nombre y apellido y tambien el nombre de su empresa o marca.",
+    chatMsg: "Me gustaría saber más sobre los servicios de World Delete para la eliminación total de datos en un entorno global.",
+    chatMsgReq: "Me gustaría solicitar el servicio de World Delete para eliminar todos los datos en mis servidores y dispositivos.",
     icon: <>
     <div className="pos-rel flex-col">
-    <GiBrokenWall  />
+    <MdPublicOff />
     </div>
       
     </>,
     height: '300px',
-    key: 'penetration_testing'
+    key: 'world_delete'
   },
 ];
 
